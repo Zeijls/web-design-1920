@@ -24,6 +24,14 @@ npm run start
 
 ## User Scenario
 
+Brian is 55 jaar, en heeft een lange tijd gewerkt als specialist wat betreft duurzame energie. Hij keure veel tekeningen en plattegronden. Brian wordt sinds de afgelopen 10 jaar langzaam blind, hierdoor zijn de technische tekeningen, tabellen en grafieken van zijn werk een enorme opgave en heeft hij helaas moeten stoppen.
+
+Brian is aan het overstappen naar screenreaders en zoom in technieken. Hij heeft er al veel in geleerd, maar vind het nog wel lastig om te gebruiken. Het grootste probleem is dat de meeste websites ook niet goed werken, maar Brian denkt al snel dat het probleem bij hem ligt.
+
+Brian zou super graag nog wel willen lezen over de duurzame energie en willen weten hoe dit er nu voorstaat. Het belangrijkste van de grafiek vind hij de trends, en dan vooral hoe de trend van duurzame energie loopt ten opzichten van de trend van fossiele erngie.
+
+In principe kan Brian nu nog teksten lezen, maar als het meer als 1 zin is raakt hij erg vermoeid. Hij zou het daardoor fijn vinden als er een audio is die de grafiek ondersteund. Verder wil hij het zicht wat hij nog heeft graag gebruiken, maar alleen als er niet teveel wit op de pagina is, en de contrasten groot zijn.
+
 ## Voorbereiding
 
 Vooraf gaand aan het gesprek met Roger zijn wij als groep te werk gegaan met het bedenken van vragen. 1 iemand nam de leiding met het stellen van de vragen, waardoor niet iedereen door elkaar ging praten. De andere konden inhaken op het moment dat dit nodig was. Ik heb met 3 andere studenten genotuleerd. Op deze manier hebben we een profiel van Roger kunnen opbouwen.
@@ -59,7 +67,7 @@ De test ging verassend goed. Hij was heel positief over de demo. Hieronder zijn 
 - Lijnen zijn heel goed en duidelijk te volgen. Kleur contrast is goed.
 - Eerste letter van een land intypen is heel goed te doen.
 - Vind het lastig om de audio te stoppen, zou hier graag zelf invloed op willen hebben.
-- Onderwerpen die ik interessant vind is duurzame energie, en dat de groei per jaar. Of Toegankelijkheidsscores van diensten en websites.
+- Onderwerpen die ik interessant vind is duurzame energie, en dat de groei per jaar. Of Toegankelijkheidsscores van diensten en websites. (ten opzichten van de fossielen energie)
 
 Naast mijn eigen test kwamen er bij de andere tests ook nog een aantal interessante punten naar voren
 

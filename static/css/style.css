@@ -1,0 +1,14 @@
+/* TYPOGRAPHY */
+
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+body,
+html {
+  height: 100%;
+  background: #222222;
+  font-family: "Lato", Roboto, sans-serif;
+}
+
+h2 {
+  color: white;
+}
