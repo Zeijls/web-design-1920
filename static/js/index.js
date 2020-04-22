@@ -67,6 +67,7 @@ let lineChart = new Chart(CHART, {
           ticks: {
             beginAtZero: true,
           },
+          scaleFontSize: 40,
         },
       ],
     },
