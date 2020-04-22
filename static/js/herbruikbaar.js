@@ -1,67 +1,336 @@
-const CHART = document.getElementById("lineChart");
-console.log(CHART);
-let lineChart = new Chart(CHART, {
-  type: "line",
-  data: (data = {
-    labels: ["2000", "2003", "2006", "2009", "2012", "2015"],
-    datasets: [
-      {
-        label: "Hernieuwbare energie",
-        fill: false,
-        lineTension: 0.1,
-        backgroundColor: "rgba(75,192,192,0.4)",
-        borderColor: "rgba(75,192,192,1)",
-        borderCapStyle: "butt",
-        borderDash: [],
-        borderDashOffset: 0.0,
-        borderJoinStyle: "miter",
-        pointBorderColor: "rgba(75,192,192,1)",
-        pointBackgroundColor: "#fff",
-        pointBorderWidth: 1,
-        pointHoverRadius: 5,
-        pointHoverBackgroundColor: "rgba(75,192,192,1)",
-        pointHoverBorderColor: "rgba(220,220,220,1)",
-        pointHoverBorderWidth: 2,
-        pointRadius: 1,
-        pointHitRadius: 10,
-        data: [52, 59, 93, 130, 139, 137],
-      },
-    ],
-  }),
-  options: {
-    responsive: true,
-    legend: {
-      // onClick: alertBox,
-      labels: {
-        fontColor: "#fff",
-      },
+var speedCanvas = document.getElementById("speedChart");
+
+Chart.defaults.global.defaultFontFamily = "Lato";
+Chart.defaults.global.defaultFontSize = 18;
+
+function hoursEarlier(hours) {
+  return moment().subtract(hours, "h").toDate();
+}
+
+var speedData = {
+  labels: [
+    hoursEarlier(10),
+    hoursEarlier(9.4),
+    hoursEarlier(8),
+    hoursEarlier(7),
+    hoursEarlier(6),
+    hoursEarlier(5),
+    hoursEarlier(4),
+  ],
+  datasets: [
+    {
+      label: "Car Speed",
+      data: [0, 59, 75, 20, 20, 55, 40],
+      lineTension: 0.25,
+      fill: false,
+      borderColor: "orange",
+      backgroundColor: "transparent",
+      pointBorderColor: "orange",
+      pointBackgroundColor: "rgba(255,150,0,0.5)",
+      borderDash: [5, 5],
+      pointRadius: 5,
+      pointHoverRadius: 10,
+      pointHitRadius: 30,
+      pointBorderWidth: 2,
+      pointStyle: "rectRounded",
     },
-    scales: {
-      yAxes: [
-        {
-          ticks: {
-            beginAtZero: true,
-          },
-        },
-      ],
-    },
-    plugins: {
-      zoom: {
-        pan: {
-          enabled: true,
-          mode: "x",
-          speed: 10,
-          threshold: 10,
-        },
-        zoom: {
-          enabled: true,
-          mode: "y",
-        },
-      },
+  ],
+};
+
+var chartOptions = {
+  legend: {
+    display: true,
+    position: "top",
+    labels: {
+      boxWidth: 80,
+      fontColor: "black",
     },
   },
-});
+  scales: {
+    xAxes: [
+      {
+        type: "time",
+        time: {
+          unit: "hour",
+          unitStepSize: 0.5,
+          round: "hour",
+          tooltipFormat: "h:mm:ss a",
+          displayFormats: {
+            hour: "MMM D, h:mm A",
+          },
+        },
+      },
+    ],
+    yAxes: [
+      {
+        gridLines: {
+          color: "black",
+          borderDash: [2, 5],
+        },
+        scaleLabel: {
+          display: true,
+          labelString: "Speed in Miles per Hour",
+          fontColor: "green",
+        },
+      },
+    ],
+  },
+};
 
-function alertBox() {
-  console.log("Hello chart js click");
+var lineChart = new Chart(speedCanvas, {
+  type: "line",
+  data: speedData,
+  options: chartOptions,
+});
+var speedCanvas = document.getElementById("speedChart");
+
+Chart.defaults.global.defaultFontFamily = "Lato";
+Chart.defaults.global.defaultFontSize = 18;
+
+function hoursEarlier(hours) {
+  return moment().subtract(hours, "h").toDate();
 }
+
+var speedData = {
+  labels: [
+    hoursEarlier(10),
+    hoursEarlier(9.4),
+    hoursEarlier(8),
+    hoursEarlier(7),
+    hoursEarlier(6),
+    hoursEarlier(5),
+    hoursEarlier(4),
+  ],
+  datasets: [
+    {
+      label: "Car Speed",
+      data: [0, 59, 75, 20, 20, 55, 40],
+      lineTension: 0.25,
+      fill: false,
+      borderColor: "orange",
+      backgroundColor: "transparent",
+      pointBorderColor: "orange",
+      pointBackgroundColor: "rgba(255,150,0,0.5)",
+      borderDash: [5, 5],
+      pointRadius: 5,
+      pointHoverRadius: 10,
+      pointHitRadius: 30,
+      pointBorderWidth: 2,
+      pointStyle: "rectRounded",
+    },
+  ],
+};
+
+var chartOptions = {
+  legend: {
+    display: true,
+    position: "top",
+    labels: {
+      boxWidth: 80,
+      fontColor: "black",
+    },
+  },
+  scales: {
+    xAxes: [
+      {
+        type: "time",
+        time: {
+          unit: "hour",
+          unitStepSize: 0.5,
+          round: "hour",
+          tooltipFormat: "h:mm:ss a",
+          displayFormats: {
+            hour: "MMM D, h:mm A",
+          },
+        },
+      },
+    ],
+    yAxes: [
+      {
+        gridLines: {
+          color: "black",
+          borderDash: [2, 5],
+        },
+        scaleLabel: {
+          display: true,
+          labelString: "Speed in Miles per Hour",
+          fontColor: "green",
+        },
+      },
+    ],
+  },
+};
+
+var lineChart = new Chart(speedCanvas, {
+  type: "line",
+  data: speedData,
+  options: chartOptions,
+});
+var speedCanvas = document.getElementById("speedChart");
+
+Chart.defaults.global.defaultFontFamily = "Lato";
+Chart.defaults.global.defaultFontSize = 18;
+
+function hoursEarlier(hours) {
+  return moment().subtract(hours, "h").toDate();
+}
+
+var speedData = {
+  labels: [
+    hoursEarlier(10),
+    hoursEarlier(9.4),
+    hoursEarlier(8),
+    hoursEarlier(7),
+    hoursEarlier(6),
+    hoursEarlier(5),
+    hoursEarlier(4),
+  ],
+  datasets: [
+    {
+      label: "Car Speed",
+      data: [0, 59, 75, 20, 20, 55, 40],
+      lineTension: 0.25,
+      fill: false,
+      borderColor: "orange",
+      backgroundColor: "transparent",
+      pointBorderColor: "orange",
+      pointBackgroundColor: "rgba(255,150,0,0.5)",
+      borderDash: [5, 5],
+      pointRadius: 5,
+      pointHoverRadius: 10,
+      pointHitRadius: 30,
+      pointBorderWidth: 2,
+      pointStyle: "rectRounded",
+    },
+  ],
+};
+
+var chartOptions = {
+  legend: {
+    display: true,
+    position: "top",
+    labels: {
+      boxWidth: 80,
+      fontColor: "black",
+    },
+  },
+  scales: {
+    xAxes: [
+      {
+        type: "time",
+        time: {
+          unit: "hour",
+          unitStepSize: 0.5,
+          round: "hour",
+          tooltipFormat: "h:mm:ss a",
+          displayFormats: {
+            hour: "MMM D, h:mm A",
+          },
+        },
+      },
+    ],
+    yAxes: [
+      {
+        gridLines: {
+          color: "black",
+          borderDash: [2, 5],
+        },
+        scaleLabel: {
+          display: true,
+          labelString: "Speed in Miles per Hour",
+          fontColor: "green",
+        },
+      },
+    ],
+  },
+};
+
+var lineChart = new Chart(speedCanvas, {
+  type: "line",
+  data: speedData,
+  options: chartOptions,
+});
+var speedCanvas = document.getElementById("speedChart");
+
+Chart.defaults.global.defaultFontFamily = "Lato";
+Chart.defaults.global.defaultFontSize = 18;
+
+function hoursEarlier(hours) {
+  return moment().subtract(hours, "h").toDate();
+}
+
+var speedData = {
+  labels: [
+    hoursEarlier(10),
+    hoursEarlier(9.4),
+    hoursEarlier(8),
+    hoursEarlier(7),
+    hoursEarlier(6),
+    hoursEarlier(5),
+    hoursEarlier(4),
+  ],
+  datasets: [
+    {
+      label: "Car Speed",
+      data: [0, 59, 75, 20, 20, 55, 40],
+      lineTension: 0.25,
+      fill: false,
+      borderColor: "orange",
+      backgroundColor: "transparent",
+      pointBorderColor: "orange",
+      pointBackgroundColor: "rgba(255,150,0,0.5)",
+      borderDash: [5, 5],
+      pointRadius: 5,
+      pointHoverRadius: 10,
+      pointHitRadius: 30,
+      pointBorderWidth: 2,
+      pointStyle: "rectRounded",
+    },
+  ],
+};
+
+var chartOptions = {
+  legend: {
+    display: true,
+    position: "top",
+    labels: {
+      boxWidth: 80,
+      fontColor: "black",
+    },
+  },
+  scales: {
+    xAxes: [
+      {
+        type: "time",
+        time: {
+          unit: "hour",
+          unitStepSize: 0.5,
+          round: "hour",
+          tooltipFormat: "h:mm:ss a",
+          displayFormats: {
+            hour: "MMM D, h:mm A",
+          },
+        },
+      },
+    ],
+    yAxes: [
+      {
+        gridLines: {
+          color: "black",
+          borderDash: [2, 5],
+        },
+        scaleLabel: {
+          display: true,
+          labelString: "Speed in Miles per Hour",
+          fontColor: "green",
+        },
+      },
+    ],
+  },
+};
+
+var lineChart = new Chart(speedCanvas, {
+  type: "line",
+  data: speedData,
+  options: chartOptions,
+});

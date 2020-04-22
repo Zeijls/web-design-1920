@@ -1,13 +1,13 @@
 onload = function () {
   if ("speechSynthesis" in window)
     with (speechSynthesis) {
-      const playButton = document.querySelector("#play");
-      const pauseButton = document.querySelector("#pause");
-      const stopButton = document.querySelector("#stop");
-      const flag = false;
-      // var language = (utter.lang = "nl-NL");
-      const myLang = speechSynthesisUtteranceInstance.lang;
-      speechSynthesisUtteranceInstance.lang = "nl-NL";
+      var playButton = document.querySelector("#play");
+      var pauseButton = document.querySelector("#pause");
+      var stopButton = document.querySelector("#stop");
+      var flag = false;
+
+      // const myLang = speechSynthesisUtteranceInstance.lang;
+      // speechSynthesisUtteranceInstance.lang = "nl-NL";
 
       playButton.addEventListener("click", onClickPlay);
       pauseButton.addEventListener("click", onClickPause);

@@ -13,6 +13,7 @@ h2 {
   color: white;
   text-align: center;
   margin-top: 5%;
+  font-size: 2rem;
 }
 
 /* Line chart */
@@ -26,6 +27,20 @@ h2 {
 /* Article text */
 main>article {
   display: none;
+}
+
+.grafieken {
+  position: absolute;
+  top: 20;
+  left: 50;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.grafieken>a {
+  color: white;
+  font-size: 1rem;
 }
 
 /* Speech synthesis */

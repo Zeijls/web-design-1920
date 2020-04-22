@@ -8,12 +8,13 @@ let lineChart = new Chart(CHART, {
       {
         label: "Hernieuwbare energie",
         fill: false,
-        lineTension: 0.1,
+        lineTension: 0.2,
         backgroundColor: "rgba(75,192,192,0.4)",
         borderColor: "rgba(75,192,192,1)",
         borderCapStyle: "butt",
         borderDash: [],
         borderDashOffset: 0.0,
+        borderWidth: 4,
         borderJoinStyle: "miter",
         pointBorderColor: "rgba(75,192,192,1)",
         pointBackgroundColor: "#fff",
@@ -29,8 +30,8 @@ let lineChart = new Chart(CHART, {
 
       {
         label: "Kernenergie",
-        fill: false,
-        lineTension: 0.1,
+        fill: true,
+        lineTension: 0.2,
         backgroundColor: "rgba(75,75,192,0.4)",
         borderColor: "rgba(75,72,192,1)",
         borderCapStyle: "butt",
@@ -56,6 +57,7 @@ let lineChart = new Chart(CHART, {
       // onClick: alertBox,
       labels: {
         fontColor: "#fff",
+        fontSize: 20,
       },
     },
     scales: {
