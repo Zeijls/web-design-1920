@@ -26,6 +26,7 @@ let lineChart = new Chart(CHART, {
         pointRadius: 1,
         pointHitRadius: 10,
         data: [52, 59, 93, 130, 139, 137],
+        onClick: alertBox,
       },
 
       {
