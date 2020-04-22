@@ -11,4 +11,12 @@ app.get("/", (req, res) => {
   res.render("overview", { res });
 });
 
+app.get("/herbruikbaar", (req, res) => {
+  res.render("herbruikbaar", { res });
+});
+
+app.get("/fossiel", (req, res) => {
+  res.render("fossiel", { res });
+});
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));

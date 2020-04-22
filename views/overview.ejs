@@ -6,13 +6,25 @@
   <!-- <h1 id="title">Welkom! <%= res.firstname %></h1> -->
   <h2>Duurzame Energie</h2>
 
-  <canvas id="lineChart"></canvas>
+  <!-- <canvas id="lineChart"></canvas> -->
+  <div class="chart-container">
+    <canvas id="lineChart"></canvas>
+  </div>
 
   <main>
+    <div class="buttons">
+      <button id=play></button>
+      <button id=pause></button>
+      <button id=stop></button>
+    </div>
+    <article>
+      Deze grafiek gaat over duurzame energie. In de grafiek zie je de lijnen
+    </article>
 
+    <a href="/herbruikbaar">Ga naar herbruikbaar </a>
+    <a href="/fossiel">Ga naar fossiel </a>
 
   </main>
-
   <%- include('partials/footer') %>
 
 </body>
