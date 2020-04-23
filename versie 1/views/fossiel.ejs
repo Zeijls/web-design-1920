@@ -1,0 +1,40 @@
+<html>
+<%- include('partials/head') %>
+
+<body>
+
+    <!-- <h1 id="title">Welkom! <%= res.firstname %></h1> -->
+    <h2>Fossiele energie
+    </h2>
+
+    <!-- <canvas id="lineChart"></canvas> -->
+    <div class="chart-container">
+        <canvas id="lineChartHerbruikbaar"></canvas>
+    </div>
+
+    <main>
+        <div class="buttons">
+            <button id=play></button>
+            <button id=pause></button>
+            <button id=stop></button>
+        </div>
+        <article>
+            Fossielle energie
+        </article>
+
+        <a href="/">Terug naar overzicht </a>
+        <a href="/herbruikbaar">Ga naar herbruikbaar </a>
+
+    </main>
+    <script src="/static/js/fossiel.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="/js/speech.js"> </script>
+    <script src="../dist/chartjs-plugin-zoom.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+
+</body>
+
+
+</html>

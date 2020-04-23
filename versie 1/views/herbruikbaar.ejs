@@ -1,0 +1,33 @@
+<html>
+<%- include('partials/head') %>
+
+<body>
+
+    <!-- <h1 id="title">Welkom! <%= res.firstname %></h1> -->
+    <h2>Hernieuwbare energie</h2>
+
+    <!-- <canvas id="lineChart"></canvas> -->
+    <div class="chart-container">
+        <canvas id="speedChart"></canvas>
+    </div>
+
+    <main>
+        <div class="buttons">
+            <button id=play></button>
+            <button id=pause></button>
+            <button id=stop></button>
+        </div>
+        <article>
+            Herbruikbare energie
+        </article>
+
+        <a href="/">Terug naar overzicht </a>
+        <a href="/fossiel">Ga naar fossiel </a>
+    </main>
+    <script src="/js/herbruikbaar.js"></script>
+    <%- include('partials/footer') %>
+
+</body>
+
+
+</html>

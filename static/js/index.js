@@ -66,8 +66,20 @@ let lineChart = new Chart(CHART, {
         {
           ticks: {
             beginAtZero: true,
+            fontSize: 30,
+            fontColor: "#fff",
           },
-          scaleFontSize: 40,
+          // scaleFontSize: 40,
+        },
+      ],
+      xAxes: [
+        {
+          ticks: {
+            beginAtZero: true,
+            fontSize: 30,
+            fontColor: "#fff",
+          },
+          // scaleFontSize: 40,
         },
       ],
     },
