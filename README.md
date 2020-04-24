@@ -1,36 +1,75 @@
-# Web Design @cmda-minor-web 1920
+<h1 align="center">Webdesign @cmda-minor-web 1920</h1>
+
+<p align="center"><b>Deze applicatie om de groene energie in je huis bij te houden is gemaakt voor [Roger Ravelli](https://www.linkedin.com/in/roger-ravelli-b19a9017/?originalSubdomain=nl). De applicatie wordt met audio ondersteund zodat hij met zijn oogaandoening de progressie van zijn zonnepanelen kan bijhouden zonder hier super vermoeid van te raken. </b>
+</p>
+
+<br>
+
+<p align="center">
+  <a href="https://web-design-simone.herokuapp.com/">
+    <img src="https://img.shields.io/badge/demo-LIVE-brightgreen.svg?style=flat-square" alt="demo">
+  </a>
+  &nbsp;&nbsp;&nbsp;
+</p>
+
+<br>
 
 <img width="1361" alt="Screenshot 2020-04-17 at 14 42 40" src="https://user-images.githubusercontent.com/45422060/79570446-c0318f80-80b9-11ea-9a90-521d97b24524.png">
 
-## Test 1 Roger
-
-[Test 1](https://www.youtube.com/watch?v=gb44xXou2Ds&feature=youtu.be)
-
 ## Introductie
 
-Deze grafiek is gemaakt voor Roger. Roger kan langzaam aan steeds minder zien. Op dit moment lijkt het alsof er een enorme vuist voor zijn zicht zit, waar hij steeds omheen moet kijken. Hij wilt het zicht wat hij nog heeft dolgraag gebruiken. Alleen met lezen is dit niet handig omdat het teveel energie kost. Om roger te helpen bij het lezen van een grafiek zijn grote contrasten enorm belangrijk. Verder moet de grafiek met audio worden ondersteund.
+Deze applicatie is het eindproduct voor het vak @cmda-minor-web 18-19](https://github.com/cmda-minor-web/browser-technologies-1819). Voor dit vak moest ik een applicatie maken waardoor Roger zijn grafieken beter kon aflezen. Roger heeft een netvlies aandoening waardoor hij in de afgelopen jaren langzaam blind wordt. Hij heeft jaren lang gewerkt als adviseur voor duurzame energie, en kan nu de grafieken en tabellen niet meer goed aflezen. Hij heeft zich erbij neergelegd dat hij dit werk niet meer kunt uitvoeren, maar als hobby vind hij het nog wel interessant, hier heb ik een oplossing voor bedacht.
+
+Bij sommige bronnen staat een van onderstaande emoticons om je helpen met het begrijpen van het type content;
+
+- 📖: Documentatie of artikel
+- 🛠: Tool or library
+- 📹: Video
 
 ## Inhoudspagina
+
+- [Installatie](#Installatie)
+- [User Scenario](#User-Scenario)
+- [Voorbereiding](#Voorbereiding)
+- [Eerste test](#Eerste-test)
+- [Tweede test](#Tweede-test)
+  - [Interatie 1](#Iteratie-1)
+- [Derde test](#Derde-test)
+  - [Interatie 2](#Iteratie-2)
+- [Exclusive Design Principles](#Exclusive-Design-Principles)
+  - [Study situation](#Study-situation)
+  - [Ignore Conventions](#Ignore-conventions)
+  - [Prioritise identity](#Prioritise-identity)
+  - [Add nonsense](#Add-nonsense)
+- [Bronnen](#Bronnen)
+- [Credits](#Credits)
 
 ## Installatie
 
 ```bash
+
+#### Open de terminal
+
 #### Clone repository
 git clone https://github.com/zeijls/web-design-1920.git
 
+#### Wijzig het pad
 cd web-design-1920
 
-#### Installeer dependencies en start de server
-npm run start
+#### Installeer dependencies
+npm install
+
+#### Start server met node
+npm run dev
 ```
 
 ## User Scenario
 
-Brian is 55 jaar, en heeft een lange tijd gewerkt als specialist wat betreft duurzame energie. Hij keure veel tekeningen en plattegronden. Brian wordt sinds de afgelopen 10 jaar langzaam blind, hierdoor zijn de technische tekeningen, tabellen en grafieken van zijn werk een enorme opgave en heeft hij helaas moeten stoppen.
+Brian is 55 jaar, en heeft een lange tijd gewerkt als specialist wat betreft duurzame energie. Hij keurde veel tekeningen en plattegronden. Brian wordt sinds de afgelopen 10 jaar langzaam blind, hierdoor zijn de technische tekeningen, tabellen en grafieken van zijn werk een enorme opgave en heeft hij hier helaas mee moeten stoppen.
 
 Brian is aan het overstappen naar screenreaders en zoom in technieken. Hij heeft er al veel in geleerd, maar vind het nog wel lastig om te gebruiken. Het grootste probleem is dat de meeste websites ook niet goed werken, maar Brian denkt al snel dat het probleem bij hem ligt.
 
-Brian zou super graag nog wel willen lezen over de duurzame energie en willen weten hoe dit er nu voorstaat. Het belangrijkste van de grafiek vind hij de trends, en dan vooral hoe de trend van duurzame energie loopt ten opzichten van de trend van fossiele erngie.
+Brian heeft een tijdje terug zonnepanelen aangeschaft om zich toch nog een beetje bezig te kunnen houden met zijn passie. Hij zou heel graag elke zaterdag ochtend willen inzien hoeveel energie de zonnepanelen hebben opgewekt, en hoeveel geld hij hiermee heeft bespaard.
 
 In principe kan Brian nu nog teksten lezen, maar als het meer als 1 zin is raakt hij erg vermoeid. Hij zou het daardoor fijn vinden als er een audio is die de grafiek ondersteund. Verder wil hij het zicht wat hij nog heeft graag gebruiken, maar alleen als er niet teveel wit op de pagina is, en de contrasten groot zijn.
 
@@ -41,11 +80,11 @@ Vooraf gaand aan het gesprek met Roger zijn wij als groep te werk gegaan met het
 In mijn wiki hebben wij een profiel ontwikkelt van Roger Ravelli;
 [Profiel Roger Ravelli](https://github.com/Zeijls/web-design-1920/wiki/Profiel-Roger-Ravelli)
 
-## Eerste gesprek
+## Eerste test
 
 Dit gesprek was vooral om kennis te maken. In dit gesprek wilde ik er achter komen welke karaktereigenschappen Roger heeft, wat zijn hobbies zijn en wat hij het meest belangrijk vind. Ik vond het een hele bijzondere ervaring om met iemand zoals Roger te praten. Dit was de eerste keer dat ik zoiets mocht meemaken.
 
-## Tweede gesprek
+## Tweede test
 
 ### Concept versie 1
 
@@ -82,9 +121,44 @@ Naast mijn eigen test kwamen er bij de andere tests ook nog een aantal interessa
 - Zou fijn zijn als Roger de screenreader ook op pauze kunt zetten door een soort "Stop" commando
 - Tabben ervaart hij als fijner dan screenreader, omdat hij dan zijn eigen tempo aan kunt geven
 
-## Derde gesprek
+### Iteratie 1
 
-### Concept versie 2 (1e iteratie)
+<img width="1440" alt="Screenshot 2020-04-24 at 10 48 46" src="https://user-images.githubusercontent.com/45422060/80198718-c75c1e80-8620-11ea-8862-b1bcb75160e4.png">
+
+## Derde test
+
+Dit gesprek ging een stuk minder soepel, maar ik heb hier wel enorm veel van geleerd. Het was mijn niet gelukt om alle feedback van week 2 te verwerken in het concept. Ik baalde hier zo ontzettend van dat de test voor mij een beetje nutteloos voelde, en ik had hier niet zoveel voor voorbereid. Maar tot mijn verbazing heb ik enorm veel uit deze test kunnen halen. Belangrijke punten die uit de test naar voren zijn gekomen:
+
+- De website ziet er op Roger zijn desktop heel anders uit doordat hij de zoom techniek gebruikt, en dit is niet zichbaar via de screenshare hoe de test werd afgenomen
+- De kleurcontrasten zijn goed, hier hoeft niet meer voor getest te worden
+- De grootte en afstand van buttons zijn prima.
+
+Dit zijn punten over het concept, maar ik heb nog veel meer geleerd van het testen en zijn reactie op mij. Voor de testpersoon is het heel fijn als je de test begint met een inleiding, eerst een kort stukje over hoe het gaat (koetjes en kalfjes gesprek), vervolgens een kort stukje vertellen over wat we vorige week hadden gedaan en waar ik in de tussentijd aan heb gewerkt, het is logisch dat Roger niet van 10 verschillende studenten nog precies weet waar ze mee bezig zijn. Daarna even uitleggen wat ik graag zou willen dat hij doet, dus door de applicatie lopen, hardop denken en duidelijk maken dat als we onderweg fouten tegen komen dit een fout is van mij, en vooral niet aan hem ligt.
+
+Na deze introductie kan de test beginnen, het is belangrijk om Roger een opdracht te geven of een vraag te stellen die hij uit de grafiek kan herleiden. Op het moment dat het stil valt, gewoon even laten gebeuren en niets voorzeggen.
+
+Ik ben een heel stuk wijzer geworden van de laatste test. Vooral dat het niet extreem belangrijk is dat je hele concept klopt en voor de volle 100% werkt. Voor mij is het belangrijk dat ik er alsnog achter sta, en niet mijn ontwerp tijdens de test naar beneden haal. Als ik zie wat ik nu alsnog uit deze test heb kunnen halen, is dat genoeg om verder te gaan met de laatste iteratie. Als ik de test had uitgevoerd via bovenstaande beschrijving was dit nog een stuk meer geweest, maar daar heb ik nu van geleerd voor de volgende keer.
+
+### Iteratie 2
+
+Voor nu heb ik mij heel erg gefocust op welke kleuren een goed contrast hebben, welke plaatsing het beste is enzovoort. Voor nu wil ik mij gaan focussen op de data die Roger interessant vind en hoe dit een meerwaarde heeft voor hem.
+
+- Data over progressie duurzame energie in zijn eigen huis
+- Audio ondersteuning verwerken
+- Inzoomen op 1 soort energie
+- Natuurlijk effect verwerken door hem een intro te geven over het weer en de zonnepanelen
+- Grapje toevoegen; Zodra hij 2 buttons te snel inklikt wordt hier een reactie op gegeven
+- Onkey events toevoegen
+
+## Exclusive Design Principles
+
+### Study situation
+
+### Ignore conventions
+
+### Prioritise identity
+
+### Add nonsense
 
 ## Bronnen
 
