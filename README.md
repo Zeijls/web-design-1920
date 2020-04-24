@@ -1,6 +1,6 @@
 <h1 align="center">Webdesign @cmda-minor-web 1920</h1>
 
-<p align="center"><b>Deze applicatie om de groene energie in je huis bij te houden is gemaakt voor [Roger Ravelli](https://www.linkedin.com/in/roger-ravelli-b19a9017/?originalSubdomain=nl) De applicatie wordt met audio ondersteund zodat hij met zijn oogaandoening de progressie van zijn zonnepanelen kan bijhouden zonder hier super vermoeid van te raken. </b>
+<p align="center"><b>Deze applicatie om de groene energie in je huis bij te houden is gemaakt voor Roger Ravelli. De applicatie wordt met audio ondersteund zodat hij met zijn oogaandoening de progressie van zijn zonnepanelen kan bijhouden zonder hier super vermoeid van te raken. </b>
 </p>
 
 <br>
@@ -42,6 +42,7 @@ Bij sommige bronnen staat een van onderstaande emoticons om je helpen met het be
   - [Ignore Conventions](#Ignore-conventions)
   - [Prioritise identity](#Prioritise-identity)
   - [Add nonsense](#Add-nonsense)
+- [Wishlist](#Wishlist)
 - [Bronnen](#Bronnen)
 - [Credits](#Credits)
 
@@ -81,7 +82,7 @@ Vooraf gaand aan het gesprek met Roger zijn wij als groep te werk gegaan met het
 In mijn wiki hebben wij een profiel ontwikkelt van Roger Ravelli;
 [Profiel Roger Ravelli](https://github.com/Zeijls/web-design-1920/wiki/Profiel-Roger-Ravelli)
 
-<details> <summary>Eerste test</summary>
+## Eerste test
 
 Dit gesprek was vooral om kennis te maken. In dit gesprek wilde ik er achter komen welke karaktereigenschappen Roger heeft, wat zijn hobbies zijn en wat hij het meest belangrijk vind. Ik vond het een hele bijzondere ervaring om met iemand zoals Roger te praten. Dit was de eerste keer dat ik zoiets mocht meemaken.
 
@@ -89,11 +90,7 @@ Dit gesprek was vooral om kennis te maken. In dit gesprek wilde ik er achter kom
 
 [Test](https://www.youtube.com/watch?v=gb44xXou2Ds&feature=youtu.be)
 
-</details>
-
 ## Tweede test
-
-<details>
 
 ### Concept versie 1
 
@@ -133,11 +130,7 @@ Naast mijn eigen test kwamen er bij de andere tests ook nog een aantal interessa
 
 <img width="1440" alt="Screenshot 2020-04-24 at 10 48 46" src="https://user-images.githubusercontent.com/45422060/80198718-c75c1e80-8620-11ea-8862-b1bcb75160e4.png">
 
-</details>
-
 ## Derde test
-
-<details>
 
 Dit gesprek ging een stuk minder soepel, maar ik heb hier wel enorm veel van geleerd. Het was mijn niet gelukt om alle feedback van week 2 te verwerken in het concept. Ik baalde hier zo ontzettend van dat de test voor mij een beetje nutteloos voelde, en ik had hier niet zoveel voor voorbereid. Maar tot mijn verbazing heb ik enorm veel uit deze test kunnen halen. Belangrijke punten die uit de test naar voren zijn gekomen:
 
@@ -173,6 +166,10 @@ Voor nu heb ik mij heel erg gefocust op welke kleuren een goed contrast hebben, 
 ### Prioritise identity
 
 ### Add nonsense
+
+## Wishlist
+
+- Een laatste test met Roger!
 
 ## Bronnen
 
