@@ -32,10 +32,11 @@ Bij sommige bronnen staat een van onderstaande emoticons om je helpen met het be
 - [User Scenario](#User-Scenario)
 - [Voorbereiding](#Voorbereiding)
 - [Eerste test](#Eerste-test)
-- [Tweede test](#Tweede-test)
   - [Interatie 1](#Iteratie-1)
-- [Derde test](#Derde-test)
+- [Tweede test](#Tweede-test)
   - [Interatie 2](#Iteratie-2)
+- [Derde test](#Derde-test)
+  - [Interatie 3](#Iteratie-3)
 - [Exclusive Design Principles](#Exclusive-Design-Principles)
   - [Study situation](#Study-situation)
   - [Ignore Conventions](#Ignore-conventions)
@@ -82,9 +83,19 @@ In mijn wiki hebben wij een profiel ontwikkelt van Roger Ravelli;
 
 ## Eerste test
 
+<details>
+
 Dit gesprek was vooral om kennis te maken. In dit gesprek wilde ik er achter komen welke karaktereigenschappen Roger heeft, wat zijn hobbies zijn en wat hij het meest belangrijk vind. Ik vond het een hele bijzondere ervaring om met iemand zoals Roger te praten. Dit was de eerste keer dat ik zoiets mocht meemaken.
 
+### Iteratie 1
+
+[Test](https://www.youtube.com/watch?v=gb44xXou2Ds&feature=youtu.be)
+
+</details>
+
 ## Tweede test
+
+<details>
 
 ### Concept versie 1
 
@@ -93,7 +104,6 @@ Belangrijkste punten voor deze test;
 - Is het kleurcontrast groot genoeg
 - Is de audio op deze manier een meerwaarde voor de grafiek
 - Zijn de verschillen in lijnen zo duidelijk?
-  [Test 1](https://www.youtube.com/watch?v=gb44xXou2Ds&feature=youtu.be)
 
 Vragen achteraf
 
@@ -121,11 +131,15 @@ Naast mijn eigen test kwamen er bij de andere tests ook nog een aantal interessa
 - Zou fijn zijn als Roger de screenreader ook op pauze kunt zetten door een soort "Stop" commando
 - Tabben ervaart hij als fijner dan screenreader, omdat hij dan zijn eigen tempo aan kunt geven
 
-### Iteratie 1
+</details>
+
+### Iteratie 2
 
 <img width="1440" alt="Screenshot 2020-04-24 at 10 48 46" src="https://user-images.githubusercontent.com/45422060/80198718-c75c1e80-8620-11ea-8862-b1bcb75160e4.png">
 
 ## Derde test
+
+<details>
 
 Dit gesprek ging een stuk minder soepel, maar ik heb hier wel enorm veel van geleerd. Het was mijn niet gelukt om alle feedback van week 2 te verwerken in het concept. Ik baalde hier zo ontzettend van dat de test voor mij een beetje nutteloos voelde, en ik had hier niet zoveel voor voorbereid. Maar tot mijn verbazing heb ik enorm veel uit deze test kunnen halen. Belangrijke punten die uit de test naar voren zijn gekomen:
 
@@ -139,7 +153,7 @@ Na deze introductie kan de test beginnen, het is belangrijk om Roger een opdrach
 
 Ik ben een heel stuk wijzer geworden van de laatste test. Vooral dat het niet extreem belangrijk is dat je hele concept klopt en voor de volle 100% werkt. Voor mij is het belangrijk dat ik er alsnog achter sta, en niet mijn ontwerp tijdens de test naar beneden haal. Als ik zie wat ik nu alsnog uit deze test heb kunnen halen, is dat genoeg om verder te gaan met de laatste iteratie. Als ik de test had uitgevoerd via bovenstaande beschrijving was dit nog een stuk meer geweest, maar daar heb ik nu van geleerd voor de volgende keer.
 
-### Iteratie 2
+### Iteratie 3
 
 Voor nu heb ik mij heel erg gefocust op welke kleuren een goed contrast hebben, welke plaatsing het beste is enzovoort. Voor nu wil ik mij gaan focussen op de data die Roger interessant vind en hoe dit een meerwaarde heeft voor hem.
 
@@ -149,6 +163,8 @@ Voor nu heb ik mij heel erg gefocust op welke kleuren een goed contrast hebben, 
 - Natuurlijk effect verwerken door hem een intro te geven over het weer en de zonnepanelen
 - Grapje toevoegen; Zodra hij 2 buttons te snel inklikt wordt hier een reactie op gegeven
 - Onkey events toevoegen
+
+</details>
 
 ## Exclusive Design Principles
 
