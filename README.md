@@ -1,6 +1,6 @@
 <h1 align="center">Webdesign @cmda-minor-web 1920</h1>
 
-<p align="center"><b>Deze applicatie om de groene energie in je huis bij te houden is gemaakt voor [Roger Ravelli](https://www.linkedin.com/in/roger-ravelli-b19a9017/?originalSubdomain=nl). De applicatie wordt met audio ondersteund zodat hij met zijn oogaandoening de progressie van zijn zonnepanelen kan bijhouden zonder hier super vermoeid van te raken. </b>
+<p align="center"><b>Deze applicatie om de groene energie in je huis bij te houden is gemaakt voor [Roger Ravelli](https://www.linkedin.com/in/roger-ravelli-b19a9017/?originalSubdomain=nl) De applicatie wordt met audio ondersteund zodat hij met zijn oogaandoening de progressie van zijn zonnepanelen kan bijhouden zonder hier super vermoeid van te raken. </b>
 </p>
 
 <br>
@@ -18,7 +18,7 @@
 
 ## Introductie
 
-Deze applicatie is het eindproduct voor het vak @cmda-minor-web 18-19](https://github.com/cmda-minor-web/browser-technologies-1819). Voor dit vak moest ik een applicatie maken waardoor Roger zijn grafieken beter kon aflezen. Roger heeft een netvlies aandoening waardoor hij in de afgelopen jaren langzaam blind wordt. Hij heeft jaren lang gewerkt als adviseur voor duurzame energie, en kan nu de grafieken en tabellen niet meer goed aflezen. Hij heeft zich erbij neergelegd dat hij dit werk niet meer kunt uitvoeren, maar als hobby vind hij het nog wel interessant, hier heb ik een oplossing voor bedacht.
+Deze applicatie is het eindproduct voor het vak [@cmda-minor-web 18-19](https://github.com/cmda-minor-web/browser-technologies-1819). Voor dit vak moest ik een applicatie maken waardoor Roger zijn grafieken beter kon aflezen. Roger heeft een netvlies aandoening waardoor hij in de afgelopen jaren langzaam blind wordt. Hij heeft jaren lang gewerkt als adviseur voor duurzame energie, en kan nu de grafieken en tabellen niet meer goed aflezen. Hij heeft zich erbij neergelegd dat hij dit werk niet meer kunt uitvoeren, maar als hobby vind hij het nog wel interessant, hier heb ik een oplossing voor bedacht.
 
 Bij sommige bronnen staat een van onderstaande emoticons om je helpen met het begrijpen van het type content;
 
@@ -81,9 +81,7 @@ Vooraf gaand aan het gesprek met Roger zijn wij als groep te werk gegaan met het
 In mijn wiki hebben wij een profiel ontwikkelt van Roger Ravelli;
 [Profiel Roger Ravelli](https://github.com/Zeijls/web-design-1920/wiki/Profiel-Roger-Ravelli)
 
-## Eerste test
-
-<details>
+<details> <summary>Eerste test</summary>
 
 Dit gesprek was vooral om kennis te maken. In dit gesprek wilde ik er achter komen welke karaktereigenschappen Roger heeft, wat zijn hobbies zijn en wat hij het meest belangrijk vind. Ik vond het een hele bijzondere ervaring om met iemand zoals Roger te praten. Dit was de eerste keer dat ik zoiets mocht meemaken.
 
@@ -131,11 +129,11 @@ Naast mijn eigen test kwamen er bij de andere tests ook nog een aantal interessa
 - Zou fijn zijn als Roger de screenreader ook op pauze kunt zetten door een soort "Stop" commando
 - Tabben ervaart hij als fijner dan screenreader, omdat hij dan zijn eigen tempo aan kunt geven
 
-</details>
-
 ### Iteratie 2
 
 <img width="1440" alt="Screenshot 2020-04-24 at 10 48 46" src="https://user-images.githubusercontent.com/45422060/80198718-c75c1e80-8620-11ea-8862-b1bcb75160e4.png">
+
+</details>
 
 ## Derde test
 
