@@ -69,4 +69,18 @@ onload = function () {
     msg.style.marginTop = msg.style.marginBottom = 0;
     document.body.insertBefore(msg, document.querySelector("div"));
   }
+
+  // Key events
+
+  document.addEventListener("keydown", function (e) {
+    if (e.keyCode === 13) {
+      onClickPlay();
+    }
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.keyCode === 32) {
+      onClickPause();
+    }
+  });
 };

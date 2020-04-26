@@ -2,9 +2,9 @@
 <%- include('partials/head') %>
 
 <body>
-
   <!-- <h1 id="title">Welkom! <%= res.firstname %></h1> -->
   <h2>Duurzame Energie</h2>
+  <h3>4 mei - 10 mei 2020</h3>
 
   <!-- <canvas id="lineChart"></canvas> -->
   <div class="chart-container">
@@ -13,23 +13,23 @@
 
   <main>
     <div class="buttons">
-      <button id=play></button>
-      <button id=pause></button>
-      <button id=stop></button>
+      <button id="play"></button>
+      <button id="pause"></button>
+      <button id="stop"></button>
     </div>
     <article>
-      Goedenmiddag roger
+      Goedenmiddag roger, het is vandaag een lekker zonnige dag. Dit is goed nieuws voor jou zonnepanelen. Vandaag heb
+      je 8 euro 87 bespaard. De zonnepanelen hebben 10,1 kilowattuur opgewekt. Hiervan is 7,7 kilowattuur opgeleverde
+      stroom. Goed bezig! Druk op de z om meer informatie te krijgen over de opgewekte zon, en druk op de s om meer
+      informatie te krijgen over de opgeleverde stroom. Hele fijne dag nog vandaag!
     </article>
 
-    <!-- <div class="grafieken">
-      <a href="/herbruikbaar">Ga naar herbruikbaar </a>
-      <a href="/fossiel">Ga naar fossiel </a>
-    </div> -->
-
+    <div class="grafieken">
+      <img src="/img/sun.png" alt="">
+      <p>€8,87</p>
+    </div>
   </main>
   <%- include('partials/footer') %>
-
 </body>
-
 
 </html>

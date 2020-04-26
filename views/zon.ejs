@@ -1,0 +1,46 @@
+<html>
+<%- include('partials/head') %>
+
+<body>
+
+    <!-- <h1 id="title">Welkom! <%= res.firstname %></h1> -->
+    <h2>Opgewekte energie door zon</h2>
+    <h3>4 mei t/m 10 mei 2020</h3>
+
+    <!-- <canvas id="lineChart"></canvas> -->
+    <div class="chart-container">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <main>
+        <div class="buttons">
+            <button id=play></button>
+            <button id=pause></button>
+            <button id=stop></button>
+        </div>
+        <article>
+            Opgewekte stroom door zon
+        </article>
+
+        <div class="grafieken">
+            <a href="/">Overzicht</a>
+            <!-- <a href="/zon">Opgewekt door zon </a> -->
+            <a href="/stroom">Teruggeleverde stroom</a>
+        </div>
+    </main>
+    <script src="/js/zon.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> -->
+    <!-- <script src="/js/index.js"></script> -->
+    <script src="/js/speech.js"> </script>
+    <!-- <script src="../dist/chartjs-plugin-zoom.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script> -->
+</body>
+
+</html>
+
+</body>
+
+
+</html>

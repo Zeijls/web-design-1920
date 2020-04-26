@@ -4,7 +4,7 @@
 <body>
 
     <!-- <h1 id="title">Welkom! <%= res.firstname %></h1> -->
-    <h2>Fossiele energie
+    <h2>Teruggeleverde stroom
     </h2>
 
     <!-- <canvas id="lineChart"></canvas> -->
@@ -22,11 +22,14 @@
             Fossielle energie
         </article>
 
-        <a href="/">Terug naar overzicht </a>
-        <a href="/herbruikbaar">Ga naar herbruikbaar </a>
+        <div class="grafieken">
+            <a href="/">Overzicht</a>
+            <a href="/zon">Opgewekt door zon </a>
+            <!-- <a href="/stroom">Teruggeleverde stroom</a> -->
+        </div>
 
     </main>
-    <script src="/static/js/fossiel.js"></script>
+    <script src="/static/js/stroom.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script src="/js/speech.js"> </script>

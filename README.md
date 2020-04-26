@@ -71,7 +71,7 @@ Brian is 55 jaar, en heeft een lange tijd gewerkt als specialist wat betreft duu
 
 Brian is aan het overstappen naar screenreaders en zoom in technieken. Hij heeft er al veel in geleerd, maar vind het nog wel lastig om te gebruiken. Het grootste probleem is dat de meeste websites ook niet goed werken, maar Brian denkt al snel dat het probleem bij hem ligt.
 
-Brian heeft een tijdje terug zonnepanelen aangeschaft om zich toch nog een beetje bezig te kunnen houden met zijn passie. Hij zou heel graag elke zaterdag ochtend willen inzien hoeveel energie de zonnepanelen hebben opgewekt, en hoeveel geld hij hiermee heeft bespaard.
+Brian heeft een tijdje terug zonnepanelen aangeschaft om zich toch nog een beetje bezig te kunnen houden met zijn passie. Hij zou heel graag elke zaterdagochtend willen inzien hoeveel energie de zonnepanelen hebben opgewekt, en hoeveel geld hij hiermee heeft bespaard.
 
 In principe kan Brian nu nog teksten lezen, maar als het meer als 1 zin is raakt hij erg vermoeid. Hij zou het daardoor fijn vinden als er een audio is die de grafiek ondersteund. Verder wil hij het zicht wat hij nog heeft graag gebruiken, maar alleen als er niet teveel wit op de pagina is, en de contrasten groot zijn.
 
@@ -159,17 +159,28 @@ Voor nu heb ik mij heel erg gefocust op welke kleuren een goed contrast hebben, 
 
 ## Exclusive Design Principles
 
+Voor dit vak kregen we 4 design principles die we op het concept moesten toepassen. De design principles gaan over [Exclusive Design](https://vasilis.nl/research/about-exclusive-design/) geschreven door Vasilis van Gemert. Om de principes goed te begrijpen heb ik hier zelf aantekeningen van gemaakt in mijn [Wiki](https://github.com/Zeijls/web-design-1920/wiki/Exclusive-Design-~-Vasilis-van-Gemert). Hieronder leg ik per principe uit hoe ik dit heb toegepast op mijn concept voor Roger Ravelli.
+
 ### Study situation
+
+Om de situatie van Roger goed te begrijpen, en te weten voor welke context ik mijn concept heb ontworpen heb ik een User Scenarion geschreven.
 
 ### Ignore conventions
 
+De screenreader die Roger gebruikt ratelt alles wat er op de website staan in een stuk op. Verder wordt er alleen verteld wat er staat en geen context gegeven. Dit stoorde mij ontzettend, voor Roger is het al vreselijk om naar een Robot stem te luisteren, en dan wordt het nog erger als hij geen normale pauzes neemt in het verhaal. Ik wilde bij de audio meer context geven en er een natuurlijk draai aan wenden. Hiervoor heb ik mijn eigen "screenreader" gemaakt waarin deze opties wel mogelijk zijn.
+
 ### Prioritise identity
 
+De hele applicatie is speciaal voor Roger gemaakt. In de eerste test hebben wij een profiel opgebouwd waaruit duidelijk wordt wat hij interessant vind, wat zijn karaktereigenschappen zijn, waar hij tegenaan loopt en wat zijn leven zou kunnen verbeteren. Hier heb ik op geprobeerd in te spelen met mijn applicatie.
+
 ### Add nonsense
+
+Bij Ignore conventions gaf ik al aan dat het mij stoorde dat de screenreader aan een stuk door ratelt, en zon robot stem heeft. Nu leek het mij leuk om de screenreader een natuurlijk effect te geven. Roger kan door middel van toetsen op zijn toetsenbord wisselen tussen verschillende energie soorten. Als hij dit te snel wilt doen geeft de screenreader dit aan, en zegt hij dat die even wat rustiger aan moet doen omdat hij het niet kan bijhouden. Verder worden er grapjes gemaakt tijdens het intro.
 
 ## Wishlist
 
 - Een laatste test met Roger!
+- Eigen stem toevoegen zodat het een natuurlijk effect heeft
 
 ## Bronnen
 
