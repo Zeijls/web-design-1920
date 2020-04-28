@@ -3,18 +3,21 @@
 
 <body>
     <!-- <h1 id="title">Welkom! <%= res.firstname %></h1> -->
-    <h2>Roger Ravelli</h2>
+    <a href="/">
+        <h2>Roger Ravelli</h2>
+    </a>
+    <h4>Vandaag 6 mei</h4>
 
-    <div class="overzicht">
+    <div class="overzichtHome">
         <div class="zon">
             <h4>Opgewekte zon</h4>
             <img src="/img/sun.png" alt="zon" />
-            <p>45 KwH | €8,87</p>
+            <p>12.3 KwH | €2,42</p>
         </div>
         <div class="stroom">
             <h4>Teruggeleverde stroom</h4>
             <img src="/img/stroom.png" alt="stroom">
-            <p>25 KwH | €4,84</p>
+            <p>9.9 KwH | €1,91</p>
         </div>
     </div>
 
@@ -25,13 +28,18 @@
             <button id="stop"></button>
         </div>
 
-        <a href="overview">Details</a>
+        <div class="details">
+            <a href="overview" class="detailsButton">Details</a>
+        </div>
+
         <article>
-            Goedenmiddag Roger, wat fijn dat je terug bent.
+            Goedenmiddag roger, het is vandaag een lekker zonnige dag. Dit is goed nieuws voor jou zonnepanelen. Vandaag
+            heb je 4 euro 33 bespaard. De zonnepanelen hebben 12,3 kilowattuur opgewekt. Hiervan is 9,9 kilowattuur
+            opgeleverde stroom. Goed bezig! Klik op de grote detail button om hier meer over te lezen. Hele fijne dag
+            nog vandaag!
         </article>
 
     </main>
-    <%- include('partials/footer') %>
 
 </body>
 

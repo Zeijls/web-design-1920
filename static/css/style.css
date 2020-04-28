@@ -9,11 +9,20 @@ html {
   font-family: "Lato", Roboto, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+a>img {
+  width: 30px;
+  height: 20px;
+  margin: 2% 10% 0;
+}
+
 h2 {
   color: white;
   text-align: left;
   margin: 10% 10% 0;
-  text-decoration: underline;
   font-weight: 800;
   font-size: 7vw;
 }
@@ -23,6 +32,37 @@ h3 {
   text-align: center;
   font-size: 4vw;
   margin-top: 0;
+}
+
+h4 {
+  color: white;
+  font-size: 6vw;
+  text-align: center;
+  margin-top: 15%;
+  font-weight: 800;
+}
+
+/* Details Button */
+.details {
+  text-align: center;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.detailsButton {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  vertical-align: middle;
+  cursor: pointer;
 }
 
 /* Line chart */
@@ -50,15 +90,26 @@ main>article {
 .overzicht {
   display: flex;
   flex-direction: row;
-  margin: 5% auto 0;
-  width: 70%;
+  margin: 15% auto 0;
+  width: 90%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.overzichtHome {
+  display: flex;
+  flex-direction: row;
+  margin: 2% auto 0;
+  width: 90%;
   align-items: center;
   text-align: center;
   justify-content: space-between;
 }
 
 .zon {
-  width: 40%;
+  width: 50%;
+  min-height: 180px;
 }
 
 .zon>h4 {
@@ -73,10 +124,12 @@ main>article {
 .zon>p {
   color: white;
   font-size: 4vw;
+  margin-top: 2.8em;
 }
 
 .stroom {
-  width: 40%;
+  width: 50%;
+  min-height: 180px;
 }
 
 .stroom>h4 {
@@ -91,12 +144,13 @@ main>article {
 .stroom>p {
   color: white;
   font-size: 4vw;
+  margin-bottom: 0;
 }
 
 /* Buttons calender */
 
 #myBtnContainer {
-  padding-top: 2em;
+  padding-top: 1em;
   padding-bottom: 1em;
   width: 80%;
   margin: auto;

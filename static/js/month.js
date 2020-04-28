@@ -7,7 +7,7 @@ let lineChart = new Chart(CHART, {
       {
         label: "Teruggeleverde stroom (KwH)",
         fill: true,
-        data: [2.1, 7.7, 0.8, 1.2, 2.5, 6, 5.6],
+        data: [1.8, 2.3, 10.8, 1.6, 8.9, 9.1, 5.4],
         borderColor: "rgba(83,182,136,1)",
         backgroundColor: "rgba(83,182,136,0.7)",
 
@@ -15,7 +15,7 @@ let lineChart = new Chart(CHART, {
       },
       {
         label: "Opwek Zon (KwH)",
-        data: [5.8, 10.1, 2.3, 3.4, 5.4, 10.3, 8.1],
+        data: [3.2, 4.2, 13.4, 4.9, 11.3, 12, 7.8],
         backgroundColor: "rgba(252,192,10,0.8)",
       },
     ],

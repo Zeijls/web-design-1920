@@ -7,14 +7,14 @@ let lineChart = new Chart(CHART, {
       {
         label: "Teruggeleverde stroom (KwH)",
         fill: true,
-        data: [2.1, 7.7, 0.8, 1.2, 2.5, 6, 5.6],
+        data: [162, 89, 223, 249, 289, 419, 460, 380, 184, 109, 79, 32],
         borderColor: "rgba(83,182,136,1)",
         backgroundColor: "rgba(83,182,136,0.7)",
         type: "line",
       },
       {
         label: "Opwek Zon (KwH)",
-        data: [5.8, 10.1, 2.3, 3.4, 5.4, 10.3, 8.1],
+        data: [294, 184, 299, 322, 365, 492, 528, 454, 266, 186, 145, 98],
         backgroundColor: "rgba(252,192,10,0.8)",
       },
     ],
