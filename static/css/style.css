@@ -12,23 +12,31 @@ html {
 h2 {
   color: white;
   text-align: center;
-  margin-top: 2%;
-  font-size: 3vw;
+  margin-top: 10%;
+  font-size: 7vw;
 }
 
 h3 {
   color: white;
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 4vw;
   margin-top: 0;
 }
 
 /* Line chart */
 .chart-container {
-  width: 90%;
+  margin-top: 10%;
+  /* width: 80%;
+  height: 80%; */
   /* height: 700px; */
-  margin: 1% auto;
-  display: block
+  /* margin: 1% auto;
+  display: block; */
+}
+
+#lineChart {
+  display: block;
+  width: 50%;
+  height: auto;
 }
 
 /* Article text */
@@ -36,31 +44,188 @@ main>article {
   display: none;
 }
 
+/* Overzicht stroom en zon */
+.overzicht {
+  display: flex;
+  flex-direction: row;
+  margin: 10% auto 0;
+  width: 70%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.zon {
+  width: 40%;
+}
+
+.zon>h4 {
+  color: white;
+  font-size: 4.5vw;
+}
+
+.zon>img {
+  width: 10vw;
+}
+
+.zon>p {
+  color: white;
+  font-size: 4vw;
+}
+
+.stroom {
+  width: 40%;
+}
+
+.stroom>h4 {
+  color: white;
+  font-size: 4.5vw;
+}
+
+.stroom>img {
+  width: 10vw;
+}
+
+.stroom>p {
+  color: white;
+  font-size: 4vw;
+}
+
+/* Buttons calender */
+
+#myBtnContainer {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  width: 80%;
+  margin: auto;
+}
+
+/* Content */
+/* .content {
+  background-color: white;
+  padding: 10px;
+} */
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  position: relative;
+  border: none;
+  outline: none;
+  padding: 12px 15px;
+  background-color: #222222;
+  cursor: pointer;
+  border-radius: 0.2em;
+  font-style: Montserrat;
+  font-size: 15px;
+  font-weight: lighter;
+  color: white;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* Add a grey background color on mouse-over */
+/* .btn:hover {
+  background-color: #ddd;
+} */
+
+/* Add a dark background color to the active button */
+.btn.active {
+  /* background-color: #000000; */
+  /* border: 3px solid #000; */
+  color: white;
+  font-weight: normal;
+}
+
+#button-underline {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+#button-underline:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 3px;
+  background-color: white;
+  content: "";
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+
+}
+
+/* #button-underline:before {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: -5px;
+  width: 0;
+  height: 3px;
+  background-color: black;
+  content: "";
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+} */
+
+#button-underline:hover:after,
+#button-underline:hover:before {
+  width: 100%;
+}
+
+/* Calender */
+.calendar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+
+}
+
+.calendar>img {
+  width: 3vw;
+  height: 3vh;
+}
+
+.calendar>h3 {
+  font-size: 4vw;
+  margin: 0 5%
+}
+
+/* 
 .grafieken {
   position: absolute;
   top: 20;
-  left: 50;
+  left: 20;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 10%;
-}
+  width: 20vw;
+} */
 
-.grafieken>h4 {
+/* .grafieken>h4 {
   color: white;
   font-size: 1rem;
   text-align: center;
   margin: auto;
-}
+} */
 
-.grafieken>img {
+/* .grafieken>img {
   width: 50%;
   margin: 5% auto;
 }
 
 .grafieken>p {
   color: white;
-  font-size: 2vw;
+  font-size: 4vw;
   text-align: center;
   margin: auto;
   font-weight: 900;
@@ -69,11 +234,11 @@ main>article {
 .grafieken>a {
   color: white;
   font-size: 1rem;
-}
+} */
 
 /* Speech synthesis */
 
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text");
 
 html {
   font-size: 16pt;
@@ -97,23 +262,49 @@ blockquote {
 
 /* Buttons */
 
-.buttons {
+/* .buttons {
   position: absolute;
   top: 20;
-  right: 50;
-  min-width: 20%;
-}
+  right: 15;
+  width: 20vw;
+  height: 20vh;
+} */
 
-button {
+.button {
   background: none;
   border: none;
   cursor: pointer;
   height: 50px;
   outline: none;
-  padding: 0;
-  width: 20%;
-  margin: 2%;
+  width: 6vw;
 }
+
+.button:nth-of-type(1) {
+  position: absolute;
+  top: 3vh;
+  right: 15;
+}
+
+.button:nth-of-type(2) {
+  position: absolute;
+  top: 10vh;
+  right: 15;
+}
+
+.button:nth-of-type(3) {
+  position: absolute;
+  top: 17vh;
+  right: 15;
+}
+
+/* @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .buttons {
+    height: 50vh;
+  }
+
+
+} */
+
 
 /* #play {
   background-image: url(https://rpsthecoder.github.io/js-speech-synthesis/play.svg);
@@ -183,7 +374,6 @@ body {
   margin: 0;
 }
 
-
 /*  demo decor */
 
 #-demo-title {
@@ -191,8 +381,8 @@ body {
   top: 0;
   width: 100%;
   height: 36px;
-  background-color: #D5FFD1;
-  color: #0F316C;
+  background-color: #d5ffd1;
+  color: #0f316c;
   line-height: 36px;
   font-weight: bold;
   font-size: 16pt;
@@ -202,7 +392,7 @@ body {
 #-demo-profile {
   float: left;
   height: 100%;
-  opacity: .4;
+  opacity: 0.4;
 }
 
 #-demo-profile:hover {

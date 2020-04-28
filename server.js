@@ -10,11 +10,11 @@ app.set("view engine", "ejs");
 app.set("views", "views");
 
 app.get("/", (req, res) => {
-  res.render("overview", { res });
+  res.render("home", { res });
 });
 
-app.get("/stroom", (req, res) => {
-  res.render("stroom", { res });
+app.get("/overview", (req, res) => {
+  res.render("overview", { res });
 });
 
 app.get("/zon", (req, res) => {
