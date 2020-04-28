@@ -1,0 +1,73 @@
+<html>
+<%- include('partials/head') %>
+
+<body>
+    <!-- <h1 id="title">Welkom! <%= res.firstname %></h1> -->
+    <h2>Roger Ravelli</h2>
+
+    <div class="overzicht">
+        <div class="zon">
+            <h4>Opgewekte zon</h4>
+            <img src="/img/sun.png" alt="zon" />
+            <p>45 KwH | €8,87</p>
+        </div>
+        <div class="stroom">
+            <h4>Teruggeleverde stroom</h4>
+            <img src="/img/stroom.png" alt="stroom">
+            <p>25 KwH | €4,84</p>
+        </div>
+    </div>
+
+    <div id="myBtnContainer">
+        <a href="/day"><button class="btn" id="button-underline"> Dag </button></a>
+        <a href="/overview"><button class="btn" id="button-underline"> Week </button></a>
+        <a href="/month"><button class="btn active" id="button-underline"> Maand</button></a>
+        <a href="/year"><button class="btn" id="button-underline"> Jaar</button></a>
+    </div>
+
+    <div class="calendar">
+        <img src="/img/arrowleft.png" alt="pijltje naar links">
+        <h3>1 mei - 6 mei (vandaag) 2020</h3>
+        <img src="/img/arrowright.png" alt="pijltje naar rechts">
+    </div>
+
+    <div class="chart-container" style="position: relative; height:60vh; width: 100vw;">
+        <canvas id="lineChart"></canvas>
+    </div>
+
+    <main>
+        <div class="buttons">
+            <button id="play"></button>
+            <button id="pause"></button>
+            <button id="stop"></button>
+        </div>
+        <article>
+            <!-- Goedenmiddag roger, het is vandaag een lekker zonnige dag. Dit is goed nieuws voor jou zonnepanelen. Vandaag heb
+      je 8 euro 87 bespaard. De zonnepanelen hebben 10,1 kilowattuur opgewekt. Hiervan is 7,7 kilowattuur opgeleverde
+      stroom. Goed bezig! Druk op de z om meer informatie te krijgen over de opgewekte zon, en druk op de s om meer
+      informatie te krijgen over de opgeleverde stroom. Hele fijne dag nog vandaag! -->
+
+            Deze week is een prima week wat betreft de opgewekte energie door jouw
+            zonnepanelen Roger. Maandag 5,8 kilowattuur, dinsdag 10,1 kilowattuur,
+            woensdag ging het iets minder maar 2,3 kilowattuur, donderdag 3,4
+            kilowattuur, vrijdag 5,4 kilowattuur, zaterdag 10,3 kilowattuur en
+            zondag 8,1 kilowattuur.
+
+            <!-- Wat betreft de teruggeleverde stroom zat je maandag op 2,1 kilowattuur. Dinsdag 10,1 kilowattuur. Woensdag 0,8
+      kilowattuur. Donderdag 1,2 kilowattuur. Vrijdag 2,5 kilowattuur. Zaterdag 6 kilowattuur en Zondag 5,6 kilowattuur. -->
+
+            <!-- .................. Ho. ho roger, niet te snel. Ik moet soms ook even nadenken op deze warme dagen hoor. -->
+        </article>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="/js/month.js"></script>
+    <script src="/js/speech.js"> </script>
+    <!-- <script src="../dist/chartjs-plugin-zoom.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+
+</body>
+
+</html>

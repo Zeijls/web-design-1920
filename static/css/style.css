@@ -123,7 +123,7 @@ main>article {
   cursor: pointer;
   border-radius: 0.2em;
   font-style: Montserrat;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: lighter;
   color: white;
   -webkit-transition: all 0.5s;
@@ -407,4 +407,94 @@ body {
   #-demo-title {
     font-size: 12pt;
   }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+
+  h2 {
+    font-size: 3vw;
+    margin-top: 5%;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .buttons>button {
+    top: 30;
+    width: 50px;
+    height: 50px;
+  }
+
+  .overzicht {
+    margin-top: 1%;
+    justify-content: space-around;
+    width: 30%;
+    position: absolute;
+    left: 20;
+    top: 20
+  }
+
+
+  .zon {
+    width: 30%;
+  }
+
+  .zon>h4 {
+    font-size: 1vw;
+  }
+
+  .zon>img {
+    width: 3vw;
+  }
+
+  .zon>p {
+    font-size: .8vw;
+  }
+
+  .stroom {
+    width: 30%;
+  }
+
+  .stroom>h4 {
+    font-size: 1vw;
+  }
+
+  .stroom>img {
+    width: 3vw;
+  }
+
+  .stroom>p {
+    color: white;
+    font-size: .8vw;
+  }
+
+  #myBtnContainer {
+    margin-top: 2%;
+  }
+
+  .btn {
+    font-size: 20px;
+
+  }
+
+  .calendar>img {
+    width: 2vw;
+    height: 4vh;
+  }
+
+  .calendar>h3 {
+    font-size: 2vw;
+    margin: 0 5%
+  }
+
+  .chart-container {
+    margin-top: 0;
+    display: block;
+    width: 70%;
+  }
+
+  .lineChart {
+    width: 60%;
+    display: block;
+  }
+
 }

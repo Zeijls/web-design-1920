@@ -17,8 +17,16 @@ app.get("/overview", (req, res) => {
   res.render("overview", { res });
 });
 
-app.get("/zon", (req, res) => {
-  res.render("zon", { res });
+app.get("/day", (req, res) => {
+  res.render("day", { res });
+});
+
+app.get("/month", (req, res) => {
+  res.render("month", { res });
+});
+
+app.get("/year", (req, res) => {
+  res.render("year", { res });
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));

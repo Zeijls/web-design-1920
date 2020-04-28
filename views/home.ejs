@@ -2,42 +2,37 @@
 <%- include('partials/head') %>
 
 <body>
-
     <!-- <h1 id="title">Welkom! <%= res.firstname %></h1> -->
-    <h2>Teruggeleverde stroom
-    </h2>
+    <h2>Roger Ravelli</h2>
 
-    <!-- <canvas id="lineChart"></canvas> -->
-    <div class="chart-container">
-        <canvas id="lineChartHerbruikbaar"></canvas>
+    <div class="overzicht">
+        <div class="zon">
+            <h4>Opgewekte zon</h4>
+            <img src="/img/sun.png" alt="zon" />
+            <p>45 KwH | €8,87</p>
+        </div>
+        <div class="stroom">
+            <h4>Teruggeleverde stroom</h4>
+            <img src="/img/stroom.png" alt="stroom">
+            <p>25 KwH | €4,84</p>
+        </div>
     </div>
 
     <main>
         <div class="buttons">
-            <button id=play></button>
-            <button id=pause></button>
-            <button id=stop></button>
+            <button id="play"></button>
+            <button id="pause"></button>
+            <button id="stop"></button>
         </div>
+
+        <a href="overview">Details</a>
         <article>
-            Fossielle energie
+            Goedenmiddag Roger, wat fijn dat je terug bent.
         </article>
 
-        <div class="grafieken">
-            <a href="/">Overzicht</a>
-            <a href="/zon">Opgewekt door zon </a>
-            <!-- <a href="/stroom">Teruggeleverde stroom</a> -->
-        </div>
-
     </main>
-    <script src="/static/js/stroom.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-    <script src="/js/speech.js"> </script>
-    <script src="../dist/chartjs-plugin-zoom.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.1"></script>
-    <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+    <%- include('partials/footer') %>
 
 </body>
-
 
 </html>
