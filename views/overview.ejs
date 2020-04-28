@@ -19,11 +19,10 @@
   </div>
 
   <div id="myBtnContainer">
-    <button class="btn" id="button-underline" onclick="filterSelection('all')"> Dag </button>
-    <button class="btn active" id="button-underline" onclick="filterSelection('Jaar1')"> Week </button>
-    <button class="btn" id="button-underline" onclick="filterSelection('Jaar2')"> Maand</button>
-    <!-- <button class="btn" onclick="filterSelection('StageJaar2')"> Stage Jaar 2</button> -->
-    <button class="btn" id="button-underline" onclick="filterSelection('Jaar3')"> Jaar</button>
+    <button class="btn" id="button-underline"> Dag </button>
+    <button class="btn active" id="button-underline"> Week </button>
+    <button class="btn" id="button-underline"> Maand</button>
+    <button class="btn" id="button-underline"> Jaar</button>
     <!-- <button class="btn" onclick="filterSelection('Jaar4')"> Jaar 4</button> -->
   </div>
 
@@ -41,9 +40,9 @@
 
   <main>
     <div class="buttons">
-      <button class="button" id="play"></button>
-      <button class="button" id="pause"></button>
-      <button class="button" id="stop"></button>
+      <button id="play"></button>
+      <button id="pause"></button>
+      <button id="stop"></button>
     </div>
     <article>
       <!-- Goedenmiddag roger, het is vandaag een lekker zonnige dag. Dit is goed nieuws voor jou zonnepanelen. Vandaag heb
@@ -64,7 +63,6 @@
     </article>
 
   </main>
-  <script src="/js/filter.js"></script>
   <%- include('partials/footer') %>
 
 </body>
