@@ -14,18 +14,18 @@
 
 <br>
 
-<img width="315" alt="Screenshot 2020-04-29 at 10 29 10" src="https://user-images.githubusercontent.com/45422060/80575729-4fb53780-8a04-11ea-83d7-48268283db86.png">
-<img width="307" alt="Screenshot 2020-04-29 at 10 29 01" src="https://user-images.githubusercontent.com/45422060/80575734-50e66480-8a04-11ea-814a-2ac7e9b4c1d4.png">
+<img width="312" alt="Screenshot 2020-04-29 at 10 32 06" src="https://user-images.githubusercontent.com/45422060/80576006-b76b8280-8a04-11ea-9cc8-6310ba3e5c43.png">
+<img width="317" alt="Screenshot 2020-04-29 at 10 32 17" src="https://user-images.githubusercontent.com/45422060/80576012-b9354600-8a04-11ea-8f51-345f97ad7374.png">
 
 ## Introductie
 
 Deze applicatie is het eindproduct voor het vak [@cmda-minor-web 18-19](https://github.com/cmda-minor-web/browser-technologies-1819). Voor dit vak moest ik een applicatie maken waardoor Roger zijn grafieken beter kon aflezen. Roger heeft een netvlies aandoening waardoor hij in de afgelopen jaren langzaam blind wordt. Hij heeft jaren lang gewerkt als adviseur voor duurzame energie, en kan nu de grafieken en tabellen niet meer goed aflezen. Hij heeft zich erbij neergelegd dat hij dit werk niet meer kunt uitvoeren, maar als hobby vind hij het nog wel interessant, hier heb ik een oplossing voor bedacht.
 
-Bij sommige bronnen staat een van onderstaande emoticons om je helpen met het begrijpen van het type content;
+<!-- Bij sommige bronnen staat een van onderstaande emoticons om je helpen met het begrijpen van het type content;
 
 - 📖: Documentatie of artikel
 - 🛠: Tool or library
-- 📹: Video
+- 📹: Video -->
 
 ## Inhoudspagina
 
@@ -38,6 +38,7 @@ Bij sommige bronnen staat een van onderstaande emoticons om je helpen met het be
   - [Interatie 2](#Iteratie-2)
 - [Derde test](#Derde-test)
   - [Interatie 3](#Iteratie-3)
+- [Conclusie testen](#Conclusie-testen)
 - [Exclusive Design Principles](#Exclusive-Design-Principles)
   - [Study situation](#Study-situation)
   - [Ignore Conventions](#Ignore-conventions)
@@ -72,7 +73,7 @@ Brian is 55 jaar, en heeft een lange tijd gewerkt als specialist wat betreft duu
 
 Brian is aan het overstappen naar screenreaders en zoom in technieken. Hij heeft er al veel in geleerd, maar vind het nog wel lastig om te gebruiken. Het grootste probleem is dat de meeste websites ook niet goed werken, maar Brian denkt al snel dat het probleem bij hem ligt.
 
-Brian heeft een tijdje terug zonnepanelen aangeschaft om zich toch nog een beetje bezig te kunnen houden met zijn passie. Hij zou heel graag elke zaterdagochtend willen inzien hoeveel energie de zonnepanelen hebben opgewekt, en hoeveel geld hij hiermee heeft bespaard.
+Brian heeft een tijdje terug zonnepanelen aangeschaft om zich toch nog een beetje bezig te kunnen houden met zijn passie. Als het zonnetje lekker schijnt zou hij graag willen inzien hoeveel energie de zonnepanelen hebben opgewekt, en hoeveel geld hij hiermee heeft bespaard. Wat het de dag zelf heeft opgeleverd vind hij het meest interessant, dus dat wilt hij direct in een overzichtje kunnen zien. Soms is hij ook benieuwd naar de progressie van de afgelopen week, maand of jaar.
 
 In principe kan Brian nu nog teksten lezen, maar als het meer als 1 zin is raakt hij erg vermoeid. Hij zou het daardoor fijn vinden als er een audio is die de grafiek ondersteund. Verder wil hij het zicht wat hij nog heeft graag gebruiken, maar alleen als er niet teveel wit op de pagina is, en de contrasten groot zijn.
 
@@ -147,18 +148,33 @@ Ik ben een heel stuk wijzer geworden van de laatste test. Vooral dat het niet ex
 
 ### Iteratie 3
 
+Bevindingen
+
+- Onkey events zijn niet nodig, de buttons waren prima te bereiken voor Roger. Hij had hier geen moeite mee.
+- Inzoomen op 1 soort energie is geen hoofdfunctie van dit concept. Is handig, maar met de kleur contrasten en audioondersteuning kan Roger de grafiek goed aflezen.
+
 Voor nu heb ik mij heel erg gefocust op welke kleuren een goed contrast hebben, welke plaatsing het beste is enzovoort. Voor nu wil ik mij gaan focussen op de data die Roger interessant vind en hoe dit een meerwaarde heeft voor hem.
 
 - Data over progressie duurzame energie in zijn eigen huis
 - Audio ondersteuning verwerken
-- Inzoomen op 1 soort energie
 - Natuurlijk effect verwerken door hem een intro te geven over het weer en de zonnepanelen
 - Grapje toevoegen; Zodra hij 2 buttons te snel inklikt wordt hier een reactie op gegeven
-- Onkey events toevoegen
+
+Tijdens het aanpassen van het User Scenario kwam ik erachter dat Roger de voortgang van de zonnepanelen hoogstwaarschijnlijk bekijkt vanaf zijn telefoon. Hierdoor is het van belang dat de website mobile first is ontworpen. Verder ga ik naast bovenstaande aanpassingen op de grafiek ook een homescreen, zero state en overzicht per dag, maand en jaar toevoegen.
+
+Om een goed beeld te krijgen van het concept, heb ik het gebruik opgenomen in een filmpje. Hierin worden alle features en functionaliteiten benaderd.
+
+[Iteratie 3](https://www.youtube.com/watch?v=2KqR2wtUDv8)
 
 </details>
 
-[Iteratie 3](https://www.youtube.com/watch?v=2KqR2wtUDv8)
+## Conclusie testen
+
+Tijdens het testen heb ik een aantal punten ondervonden die het leven op het web van iemand zo als Roger erg lastig maken. Een groot voorbeeld hiervan is de screenreader. De screenreader kan geen context geven en blijft continu doorratelen. Om die reden heb ik mijn eigen audio ondersteuning aan de website toegevoegd. Nu kan ik context aan het verhaal meegeven, en de screenreader een natuurlijk effect meegeven. Als voorbeeld Roger een goedendag wensen als hij op de website aankomt. Een grapje als hij te ongeduldig doet, en context meegeven aan de aantallen die worden opgenoemd in plaats van enkel de aantallen. Uit de testen is gebleken dat dit voor Roger een enorme meerwaarde geeft aan de ervaring.
+
+Bij voorbaat dacht ik dat Roger enorme knoppen nodig had op de website en zijn zicht niet kon gebruiken. Tijdens het testen bleek dat hij het zicht wat hij heeft maar al te graag gebruikt, alleen niet voor teksten lezen enzovoort. Dat kost hem te veel moeite, maar een knop inklikken of de trend van een grafiek lezen gaat nog best goed. Door de audio ondersteuning aan de website mee te geven kan Roger zelf kiezen hoeveel energie hij er in wilt steken om met zijn zicht de grafiek te volgen, omdat de audio dit ook duidelijk maakt.
+
+Ik vond het een hele bijzondere ervaring om met Roger te mogen testen. Zelfs op de afstand die er tussen ons zat, heb ik hier enorm veel van geleerd. Zoals ik al benoemde in de testresultaten van Iteratie 3 heb ik veel geleerd over het uitvoeren van een test zelf, maar ook inzichten gekregen over de ervaring van een gebruiker met een aandoening op het web. Ik was ervan bewust dat het deze doelgroep niet makkelijk wordt gemaakt op het web. Na dit project zal ik hier meer rekening mee houden met mijn eigen werk.
 
 ## Exclusive Design Principles
 
@@ -166,25 +182,28 @@ Voor dit vak kregen we 4 design principles die we op het concept moesten toepass
 
 ### Study situation
 
-Om de situatie van Roger goed te begrijpen, en te weten voor welke context ik mijn concept heb ontworpen heb ik een User Scenarion geschreven.
+Om de situatie van Roger goed te begrijpen, en te weten voor welke context ik mijn concept ga ontwerpen heb ik een User Scenario geschreven, en een Profiel van Roger opgebouwd.
 
 ### Ignore conventions
 
-De screenreader die Roger gebruikt ratelt alles wat er op de website staan in een stuk op. Verder wordt er alleen verteld wat er staat en geen context gegeven. Dit stoorde mij ontzettend, voor Roger is het al vreselijk om naar een Robot stem te luisteren, en dan wordt het nog erger als hij geen normale pauzes neemt in het verhaal. Ik wilde bij de audio meer context geven en er een natuurlijk draai aan wenden. Hiervoor heb ik mijn eigen "screenreader" gemaakt waarin deze opties wel mogelijk zijn.
+De screenreader die Roger gebruikt ratelt alles wat er op de website staat aan een stuk op. Verder wordt er alleen verteld wat er staat en geen context gegeven. Dit stoorde mij ontzettend, voor Roger is het al vreselijk om naar een Robot stem te luisteren, en dan wordt het nog erger als hij geen normale pauzes neemt in het verhaal. Ik wilde bij de audio meer context geven en er een natuurlijk draai aan wenden. Hiervoor heb ik mijn eigen "screenreader" gemaakt waarin deze opties wel mogelijk zijn.
 
 ### Prioritise identity
 
-De hele applicatie is speciaal voor Roger gemaakt. In de eerste test hebben wij een profiel opgebouwd waaruit duidelijk wordt wat hij interessant vind, wat zijn karaktereigenschappen zijn, waar hij tegenaan loopt en wat zijn leven zou kunnen verbeteren. Hier heb ik op geprobeerd in te spelen met mijn applicatie.
+De hele applicatie is speciaal voor Roger gemaakt. In de eerste test hebben wij een profiel opgebouwd waaruit duidelijk wordt wat hij interessant vind, wat zijn karaktereigenschappen zijn, waar hij tegenaan loopt en wat zijn leven zou kunnen verbeteren. Hier heb ik op geprobeerd in te spelen met mijn website.
 
 ### Add nonsense
 
-Bij Ignore conventions gaf ik al aan dat het mij stoorde dat de screenreader aan een stuk door ratelt, en zon robot stem heeft. Nu leek het mij leuk om de screenreader een natuurlijk effect te geven. Roger kan door middel van toetsen op zijn toetsenbord wisselen tussen verschillende energie soorten. Als hij dit te snel wilt doen geeft de screenreader dit aan, en zegt hij dat die even wat rustiger aan moet doen omdat hij het niet kan bijhouden. Verder worden er grapjes gemaakt tijdens het intro.
+Bij Ignore conventions gaf ik al aan dat het mij stoorde dat de screenreader aan een stuk door ratelt, en een robot stem heeft. Nu leek het mij leuk om de screenreader een natuurlijk effect te geven. Voor Roger is het mogelijk in te zoomen op soorten energie. Als hij dit te snel wilt doen geeft de screenreader dit aan, en zegt hij dat die even wat rustiger aan moet doen omdat hij het niet kan bijhouden.
 
 ## Wishlist
 
 - Een laatste test met Roger!
 - Eigen stem toevoegen zodat het een natuurlijk effect heeft
+- Audio die zelf afspeelt op het goede moment
 
 ## Bronnen
 
 ## Credits
+
+- Koop Reynders, voor zijn extra feedback in de laatste week
