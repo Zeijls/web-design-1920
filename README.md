@@ -14,7 +14,8 @@
 
 <br>
 
-<img width="1361" alt="Screenshot 2020-04-17 at 14 42 40" src="https://user-images.githubusercontent.com/45422060/79570446-c0318f80-80b9-11ea-9a90-521d97b24524.png">
+<img width="315" alt="Screenshot 2020-04-29 at 10 29 10" src="https://user-images.githubusercontent.com/45422060/80575729-4fb53780-8a04-11ea-83d7-48268283db86.png">
+<img width="307" alt="Screenshot 2020-04-29 at 10 29 01" src="https://user-images.githubusercontent.com/45422060/80575734-50e66480-8a04-11ea-814a-2ac7e9b4c1d4.png">
 
 ## Introductie
 
@@ -156,6 +157,8 @@ Voor nu heb ik mij heel erg gefocust op welke kleuren een goed contrast hebben, 
 - Onkey events toevoegen
 
 </details>
+
+[Iteratie 3](https://www.youtube.com/watch?v=2KqR2wtUDv8)
 
 ## Exclusive Design Principles
 
