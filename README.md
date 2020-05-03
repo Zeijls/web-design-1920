@@ -1,6 +1,6 @@
 <h1 align="center">Webdesign @cmda-minor-web 1920</h1>
 
-<p align="center"><b>Deze applicatie om de groene energie in je huis bij te houden is gemaakt voor Roger Ravelli. De applicatie wordt met audio ondersteund zodat hij met zijn oogaandoening de progressie van zijn zonnepanelen kan bijhouden zonder hier super vermoeid van te raken. </b>
+<p align="center"><b>Om de groene energie in huis bij te houden is de volgende applicatie ontwikkelt voor Roger Ravelli. Er is audioondersteuning aanwezig zodat hij met zijn oogaandoening de progressie van zijn zonnepanelen kan bijhouden zonder hier erg vermoeid van te raken. </b>
 </p>
 
 <br>
@@ -12,20 +12,12 @@
   &nbsp;&nbsp;&nbsp;
 </p>
 
-<br>
-
 <img width="312" alt="Screenshot 2020-04-29 at 10 32 06" src="https://user-images.githubusercontent.com/45422060/80576006-b76b8280-8a04-11ea-9cc8-6310ba3e5c43.png">
 <img width="317" alt="Screenshot 2020-04-29 at 10 32 17" src="https://user-images.githubusercontent.com/45422060/80576012-b9354600-8a04-11ea-8f51-345f97ad7374.png">
 
 ## Introductie
 
-Deze applicatie is het eindproduct voor het vak [@cmda-minor-web 18-19](https://github.com/cmda-minor-web/browser-technologies-1819). Voor dit vak moest ik een applicatie maken waardoor Roger zijn grafieken beter kon aflezen. Roger heeft een netvlies aandoening waardoor hij in de afgelopen jaren langzaam blind wordt. Hij heeft jaren lang gewerkt als adviseur voor duurzame energie, en kan nu de grafieken en tabellen niet meer goed aflezen. Hij heeft zich erbij neergelegd dat hij dit werk niet meer kunt uitvoeren, maar als hobby vind hij het nog wel interessant, hier heb ik een oplossing voor bedacht.
-
-<!-- Bij sommige bronnen staat een van onderstaande emoticons om je helpen met het begrijpen van het type content;
-
-- 📖: Documentatie of artikel
-- 🛠: Tool or library
-- 📹: Video -->
+Deze applicatie is het eindproduct voor het vak [@cmda-minor-web 18-19](https://github.com/cmda-minor-web/browser-technologies-1819). Voor dit vak moest ik een concept ontwikkelen waardoor Roger zijn leven eens stukje makkelijker wordt gemaakt. Roger heeft een netvlies aandoening waardoor hij in de afgelopen jaren langzaam blind wordt. Hij heeft jaren lang gewerkt als adviseur voor duurzame energie, en kan nu de grafieken en tabellen niet meer goed aflezen. Hij heeft zich erbij neergelegd dat hij moest stoppen met werken, maar als hobby vind hij het nog wel interessant om met duurzame energie bezig te zijn, hier heb ik een oplossing voor bedacht.
 
 ## Inhoudspagina
 
@@ -69,9 +61,9 @@ npm run dev
 
 ## User Scenario
 
-Brian is 55 jaar, en heeft een lange tijd gewerkt als specialist wat betreft duurzame energie. Hij keurde veel tekeningen en plattegronden. Brian wordt sinds de afgelopen 10 jaar langzaam blind, hierdoor zijn de technische tekeningen, tabellen en grafieken van zijn werk een enorme opgave en heeft hij hier helaas mee moeten stoppen.
+Brian is 55 jaar, en heeft een lange tijd gewerkt als specialist wat betreft duurzame energie. Hij keurde veel technische tekeningen en plattegronden. Brian wordt sinds de afgelopen 10 jaar langzaam blind, hierdoor zijn de tekeningen, tabellen en grafieken van zijn werk een enorme opgave en heeft hij hier helaas mee moeten stoppen.
 
-Brian is aan het overstappen naar screenreaders en zoom in technieken. Hij heeft er al veel in geleerd, maar vind het nog wel lastig om te gebruiken. Het grootste probleem is dat de meeste websites ook niet goed werken, maar Brian denkt al snel dat het probleem bij hem ligt.
+Hij is aan het overstappen naar screenreaders en zoom in technieken. Hij heeft hier al veel van geleerd door cursussen, maar vind het nog wel lastig om te gebruiken. Het grootste probleem is dat de meeste websites ook niet toegankelijk genoeg zijn, maar Brian denkt al snel dat het probleem bij hem ligt.
 
 Brian heeft een tijdje terug zonnepanelen aangeschaft om zich toch nog een beetje bezig te kunnen houden met zijn passie. Als het zonnetje lekker schijnt zou hij graag willen inzien hoeveel energie de zonnepanelen hebben opgewekt, en hoeveel geld hij hiermee heeft bespaard. Wat het de dag zelf heeft opgeleverd vind hij het meest interessant, dus dat wilt hij direct in een overzichtje kunnen zien. Soms is hij ook benieuwd naar de progressie van de afgelopen week, maand of jaar.
 
@@ -79,24 +71,24 @@ In principe kan Brian nu nog teksten lezen, maar als het meer als 1 zin is raakt
 
 ## Voorbereiding
 
-Vooraf gaand aan het gesprek met Roger zijn wij als groep te werk gegaan met het bedenken van vragen. 1 iemand nam de leiding met het stellen van de vragen, waardoor niet iedereen door elkaar ging praten. De andere konden inhaken op het moment dat dit nodig was. Ik heb met 3 andere studenten genotuleerd. Op deze manier hebben we een profiel van Roger kunnen opbouwen.
-
-In mijn wiki hebben wij een profiel ontwikkelt van Roger Ravelli;
-[Profiel Roger Ravelli](https://github.com/Zeijls/web-design-1920/wiki/Profiel-Roger-Ravelli)
+Vooraf gaand aan het gesprek met Roger zijn wij als groep te werk gegaan met het voorbereiden van de test. 1 iemand nam de leiding met het stellen van de vragen, waardoor niet iedereen door elkaar ging praten. De andere konden inhaken op het moment dat dit nodig was. Ik heb met 3 andere studenten genotuleerd.
 
 ## Eerste test
 
 Dit gesprek was vooral om kennis te maken. In dit gesprek wilde ik er achter komen welke karaktereigenschappen Roger heeft, wat zijn hobbies zijn en wat hij het meest belangrijk vind. Ik vond het een hele bijzondere ervaring om met iemand zoals Roger te praten. Dit was de eerste keer dat ik zoiets mocht meemaken.
 
-### Iteratie 1
+Tijdens de eerste test hebben wij een profiel van Roger opgebouwd, deze is terug te vinden in mijn wiki;
+[Profiel Roger Ravelli](https://github.com/Zeijls/web-design-1920/wiki/Profiel-Roger-Ravelli)
 
-[Test](https://www.youtube.com/watch?v=gb44xXou2Ds&feature=youtu.be)
+Belangrijke punten voor de volgende test:
+
+-
 
 ## Tweede test
 
 ### Concept versie 1
 
-Belangrijkste punten voor deze test;
+Belangrijkste punten die ik uit de test wil halen;
 
 - Is het kleurcontrast groot genoeg
 - Is de audio op deze manier een meerwaarde voor de grafiek
@@ -110,7 +102,11 @@ Vragen achteraf
 - Zijn de contrasten zo groot genoeg?
 - In hoeverre is het voor u mogelijk om bepaalde letters op het toetsenbord te vinden.
 
-De test ging verassend goed. Hij was heel positief over de demo. Hieronder zijn feedback:
+### Iteratie 1
+
+[Test](https://www.youtube.com/watch?v=gb44xXou2Ds&feature=youtu.be)
+
+De test ging verassend goed. Hij was heel positief over de demo. Ik had een filmpje gemaakt van de werking omdat ik wist dat ik het niet ging redden om het prototype in deze korte tijd af te krijgen. Tot mijn verbazing werkte dit best goed voor een eerste iteratie en heb ik hier iteressante punten uit kunnen halen. Hieronder de feedback van Roger;
 
 - Lijnen zijn heel goed en duidelijk te volgen. Kleur contrast is goed.
 - Eerste letter van een land intypen is heel goed te doen.
@@ -126,7 +122,9 @@ Naast mijn eigen test kwamen er bij de andere tests ook nog een aantal interessa
 - Customised screenreader met eigen zinnen werkt super goed
 - Houd van een samenvatting, beter voor de tabel of grafiek dan erna
 - Zou fijn zijn als Roger de screenreader ook op pauze kunt zetten door een soort "Stop" commando
-- Tabben ervaart hij als fijner dan screenreader, omdat hij dan zijn eigen tempo aan kunt geven
+- Tabben ervaart hij als fijner dan screenreader, omdat hij dan zijn eigen tempo aan kunt geven.
+
+Voor de laatste test ga ik de volgende punten verwerken.
 
 ### Iteratie 2
 
@@ -170,11 +168,15 @@ Om een goed beeld te krijgen van het concept, heb ik het gebruik opgenomen in ee
 
 ## Conclusie testen
 
+<details><summary>Conclusie</summary>
+
 Tijdens het testen heb ik een aantal punten ondervonden die het leven op het web van iemand zo als Roger erg lastig maken. Een groot voorbeeld hiervan is de screenreader. De screenreader kan geen context geven en blijft continu doorratelen. Om die reden heb ik mijn eigen audio ondersteuning aan de website toegevoegd. Nu kan ik context aan het verhaal meegeven, en de screenreader een natuurlijk effect meegeven. Als voorbeeld Roger een goedendag wensen als hij op de website aankomt. Een grapje als hij te ongeduldig doet, en context meegeven aan de aantallen die worden opgenoemd in plaats van enkel de aantallen. Uit de testen is gebleken dat dit voor Roger een enorme meerwaarde geeft aan de ervaring.
 
 Bij voorbaat dacht ik dat Roger enorme knoppen nodig had op de website en zijn zicht niet kon gebruiken. Tijdens het testen bleek dat hij het zicht wat hij heeft maar al te graag gebruikt, alleen niet voor teksten lezen enzovoort. Dat kost hem te veel moeite, maar een knop inklikken of de trend van een grafiek lezen gaat nog best goed. Door de audio ondersteuning aan de website mee te geven kan Roger zelf kiezen hoeveel energie hij er in wilt steken om met zijn zicht de grafiek te volgen, omdat de audio dit ook duidelijk maakt.
 
 Ik vond het een hele bijzondere ervaring om met Roger te mogen testen. Zelfs op de afstand die er tussen ons zat, heb ik hier enorm veel van geleerd. Zoals ik al benoemde in de testresultaten van Iteratie 3 heb ik veel geleerd over het uitvoeren van een test zelf, maar ook inzichten gekregen over de ervaring van een gebruiker met een aandoening op het web. Ik was ervan bewust dat het deze doelgroep niet makkelijk wordt gemaakt op het web. Na dit project zal ik hier meer rekening mee houden met mijn eigen werk.
+
+</details>
 
 ## Exclusive Design Principles
 
