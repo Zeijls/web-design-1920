@@ -69,7 +69,11 @@ Brian heeft een tijdje terug zonnepanelen aangeschaft om zich toch nog een beetj
 
 In principe kan Brian nu nog teksten lezen, maar als het meer als 1 zin is raakt hij erg vermoeid. Hij zou het daardoor fijn vinden als er een audio is die de grafiek ondersteund. Verder wil hij het zicht wat hij nog heeft graag gebruiken, maar alleen als er niet teveel wit op de pagina is, en de contrasten groot zijn.
 
-## Voorbereiding
+## Testen
+
+<details><summary>Testresultaten</summary>
+
+### Voorbereiding
 
 Vooraf gaand aan het gesprek met Roger zijn wij als groep te werk gegaan met het voorbereiden van de test. 1 iemand nam de leiding met het stellen van de vragen, waardoor niet iedereen door elkaar ging praten. De andere konden inhaken op het moment dat dit nodig was. Ik heb met 3 andere studenten genotuleerd.
 
@@ -113,7 +117,8 @@ De test ging verassend goed. Hij was heel positief over de demo. Ik had een film
 - Vind het lastig om de audio te stoppen, zou hier graag zelf invloed op willen hebben.
 - Onderwerpen die ik interessant vind is duurzame energie, en dat de groei per jaar. Of Toegankelijkheidsscores van diensten en websites. (ten opzichten van de fossielen energie)
 
-Naast mijn eigen test kwamen er bij de andere tests ook nog een aantal interessante punten naar voren
+`Bevindingen`
+Naast mijn eigen test kwamen er bij de andere tests ook nog een aantal interessante bevindingen naar voren
 
 - Vind het fijn om de hele grafiek in beeld te hebben.
 - Via supernova zet hij de websites die teveel wit hebben, om in darkmode. Dit is niet te zien via screensharing
@@ -123,8 +128,6 @@ Naast mijn eigen test kwamen er bij de andere tests ook nog een aantal interessa
 - Houd van een samenvatting, beter voor de tabel of grafiek dan erna
 - Zou fijn zijn als Roger de screenreader ook op pauze kunt zetten door een soort "Stop" commando
 - Tabben ervaart hij als fijner dan screenreader, omdat hij dan zijn eigen tempo aan kunt geven.
-
-Voor de laatste test ga ik de volgende punten verwerken.
 
 ### Iteratie 2
 
@@ -146,7 +149,7 @@ Ik ben een heel stuk wijzer geworden van de laatste test. Vooral dat het niet ex
 
 ### Iteratie 3
 
-Bevindingen
+`Bevindingen`
 
 - Onkey events zijn niet nodig, de buttons waren prima te bereiken voor Roger. Hij had hier geen moeite mee.
 - Inzoomen op 1 soort energie is geen hoofdfunctie van dit concept. Is handig, maar met de kleur contrasten en audioondersteuning kan Roger de grafiek goed aflezen.
@@ -182,6 +185,8 @@ Ik vond het een hele bijzondere ervaring om met Roger te mogen testen. Zelfs op 
 
 Voor dit vak kregen we 4 design principles die we op het concept moesten toepassen. De design principles gaan over [Exclusive Design](https://vasilis.nl/research/about-exclusive-design/) geschreven door Vasilis van Gemert. Om de principes goed te begrijpen heb ik hier zelf aantekeningen van gemaakt in mijn [Wiki](https://github.com/Zeijls/web-design-1920/wiki/Exclusive-Design-~-Vasilis-van-Gemert). Hieronder leg ik per principe uit hoe ik dit heb toegepast op mijn concept voor Roger Ravelli.
 
+<details><summary>De vier principes</summary>
+
 ### Study situation
 
 Om de situatie van Roger goed te begrijpen, en te weten voor welke context ik mijn concept ga ontwerpen heb ik een User Scenario geschreven, en een Profiel van Roger opgebouwd.
@@ -198,6 +203,8 @@ De hele applicatie is speciaal voor Roger gemaakt. In de eerste test hebben wij 
 
 Bij Ignore conventions gaf ik al aan dat het mij stoorde dat de screenreader aan een stuk door ratelt, en een robot stem heeft. Nu leek het mij leuk om de screenreader een natuurlijk effect te geven. Voor Roger is het mogelijk in te zoomen op soorten energie. Als hij dit te snel wilt doen geeft de screenreader dit aan, en zegt hij dat die even wat rustiger aan moet doen omdat hij het niet kan bijhouden.
 
+</details>
+
 ## Wishlist
 
 - Een laatste test met Roger!
@@ -209,3 +216,4 @@ Bij Ignore conventions gaf ik al aan dat het mij stoorde dat de screenreader aan
 ## Credits
 
 - Koop Reynders, voor zijn extra feedback in de laatste week
+- Roger Ravelli, voor al zijn feedback en het testen
