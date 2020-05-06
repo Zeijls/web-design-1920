@@ -84,10 +84,6 @@ Dit gesprek was vooral om kennis te maken. In dit gesprek wilde ik er achter kom
 Tijdens de eerste test hebben wij een profiel van Roger opgebouwd, deze is terug te vinden in mijn wiki;
 [Profiel Roger Ravelli](https://github.com/Zeijls/web-design-1920/wiki/Profiel-Roger-Ravelli)
 
-Belangrijke punten voor de volgende test:
-
--
-
 ## Tweede test
 
 ### Concept versie 1
@@ -212,6 +208,9 @@ Bij Ignore conventions gaf ik al aan dat het mij stoorde dat de screenreader aan
 - Audio die zelf afspeelt op het goede moment
 
 ## Bronnen
+
+- [Essent thuis app](https://www.energieverbruiksmanagers.nl/overzicht-energieverbruiksmanagers/essent-thuis-app-nsure-energielezer/)
+- [Essent](https://www.essent.nl/kennisbank/zonnepanelen/hoe-werken-zonnepanelen/opbrengst-zonnepanelen-per-maand)
 
 ## Credits
 
