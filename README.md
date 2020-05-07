@@ -63,11 +63,11 @@ npm run dev
 
 Brian is 55 jaar, en heeft een lange tijd gewerkt als specialist wat betreft duurzame energie. Hij keurde veel technische tekeningen en plattegronden. Brian wordt sinds de afgelopen 10 jaar langzaam blind, hierdoor zijn de tekeningen, tabellen en grafieken van zijn werk een enorme opgave en heeft hij hier helaas mee moeten stoppen.
 
-Hij is aan het overstappen naar screenreaders en zoom in technieken. Hij heeft hier al veel van geleerd door cursussen, maar vind het nog wel lastig om te gebruiken. Het grootste probleem is dat de meeste websites ook niet toegankelijk genoeg zijn, maar Brian denkt al snel dat het probleem bij hem ligt.
-
-Brian heeft een tijdje terug zonnepanelen aangeschaft om zich toch nog een beetje bezig te kunnen houden met zijn passie. Als het zonnetje lekker schijnt zou hij graag willen inzien hoeveel energie de zonnepanelen hebben opgewekt, en hoeveel geld hij hiermee heeft bespaard. Wat het de dag zelf heeft opgeleverd vind hij het meest interessant, dus dat wilt hij direct in een overzichtje kunnen zien. Soms is hij ook benieuwd naar de progressie van de afgelopen week, maand of jaar.
-
 In principe kan Brian nu nog teksten lezen, maar als het meer als 1 zin is raakt hij erg vermoeid. Hij zou het daardoor fijn vinden als er een audio is die de grafiek ondersteund. Verder wil hij het zicht wat hij nog heeft graag gebruiken, maar alleen als er niet teveel wit op de pagina is, en de contrasten groot zijn.
+
+Hij is inmiddels aan het overstappen naar screenreaders en zoom in technieken. Hij heeft hier al veel van geleerd door cursussen, maar vind het nog wel lastig om te gebruiken. Het grootste probleem is dat de meeste websites ook niet toegankelijk genoeg zijn, maar Brian denkt al snel dat het probleem bij hem ligt.
+
+Brian heeft een tijdje terug zonnepanelen aangeschaft om zich toch nog een beetje bezig te kunnen houden met zijn passie. Als het zonnetje lekker schijnt zou hij graag willen inzien hoeveel energie de zonnepanelen hebben opgewekt, en hoeveel geld hij hiermee heeft bespaard. Wat het de dag zelf heeft opgeleverd vind hij het meest interessant, dus dat wilt hij direct in een overzichtje kunnen zien. Soms is hij ook benieuwd naar de progressie van de afgelopen weken, maanden en/of jaren.
 
 ## Testen
 
@@ -76,7 +76,7 @@ In principe kan Brian nu nog teksten lezen, maar als het meer als 1 zin is raakt
 
 `Voorbereiding`
 
-Vooraf gaand aan het gesprek met Roger zijn wij als groep te werk gegaan met het voorbereiden van de test. 1 iemand nam de leiding met het stellen van de vragen, waardoor niet iedereen door elkaar ging praten. De andere konden inhaken op het moment dat dit nodig was. Ik heb met 3 andere studenten genotuleerd.
+Voorafgaand aan het gesprek met Roger zijn wij als groep te werk gegaan met het voorbereiden van de eerste test, één iemand nam de leiding met het stellen van de vragen, waardoor niet iedereen door elkaar ging praten. De andere konden inhaken op het moment dat dit nodig was. Ik heb met 3 andere studenten genotuleerd.
 
 Dit gesprek was vooral om kennis te maken. In dit gesprek wilde ik er achter komen welke karaktereigenschappen Roger heeft, wat zijn hobbies zijn en wat hij het meest belangrijk vind. Ik vond het een hele bijzondere ervaring om met iemand zoals Roger te praten. Dit was de eerste keer dat ik zoiets mocht meemaken.
 
@@ -110,7 +110,7 @@ Vragen achteraf
 - Zijn de contrasten zo groot genoeg?
 - In hoeverre is het voor u mogelijk om bepaalde letters op het toetsenbord te vinden.
 
-De test ging verassend goed. Hij was heel positief over de demo. Ik had een filmpje gemaakt van de werking omdat ik wist dat ik het niet ging redden om het prototype in deze korte tijd af te krijgen. Tot mijn verbazing werkte dit best goed voor een eerste iteratie en heb ik hier iteressante punten uit kunnen halen. Hieronder de feedback van Roger;
+De test ging verassend goed. Hij was heel positief over de demo. Ik had een filmpje gemaakt van de werking omdat ik wist dat ik het niet ging redden om het prototype in deze korte tijd af te krijgen. Tot mijn verbazing werkte dit zeer goed voor een eerste iteratie en heb ik hier iteressante punten uit kunnen halen. Hieronder de feedback van Roger;
 
 - Lijnen zijn heel goed en duidelijk te volgen. Kleur contrast is goed.
 - Eerste letter van een land intypen is heel goed te doen.
@@ -143,7 +143,7 @@ Om heel eerlijk te zijn had ik deze test niet voorbereid. Ik had van te voren ni
 
 <img width="1440" alt="Screenshot 2020-04-24 at 10 48 46" src="https://user-images.githubusercontent.com/45422060/80198718-c75c1e80-8620-11ea-8862-b1bcb75160e4.png">
 
-Dit gesprek ging een stuk minder soepel, maar ik heb hier wel enorm veel van geleerd. Het was mijn niet gelukt om alle feedback van week 2 te verwerken in het concept. Ik baalde hier zo ontzettend van dat de test voor mij een beetje nutteloos voelde, en ik had hier niet zoveel voor voorbereid. Maar tot mijn verbazing heb ik enorm veel uit deze test kunnen halen. Belangrijke punten die uit de test naar voren zijn gekomen:
+Dit gesprek ging een stuk minder soepel, maar ik heb hier wel enorm veel van geleerd. Het was mijn niet gelukt om alle feedback van week 2 te verwerken in het concept. Ik baalde hier zo ontzettend van dat de test voor mij een beetje nutteloos voelde maar tot mijn verbazing heb ik enorm veel uit deze test kunnen halen. Belangrijke punten die uit de test naar voren zijn gekomen:
 
 `Bevindingen`
 
@@ -153,9 +153,9 @@ Dit gesprek ging een stuk minder soepel, maar ik heb hier wel enorm veel van gel
 
 Dit zijn punten over het concept, maar ik heb nog veel meer geleerd van het testen en zijn reactie op mij. Voor de testpersoon is het heel fijn als je de test begint met een inleiding, eerst een kort stukje over hoe het gaat (koetjes en kalfjes gesprek), vervolgens een kort stukje vertellen over wat we vorige week hadden gedaan en waar ik in de tussentijd aan heb gewerkt, het is logisch dat Roger niet van 10 verschillende studenten nog precies weet waar ze mee bezig zijn. Daarna even uitleggen wat ik graag zou willen dat hij doet, dus door de applicatie lopen, hardop denken en duidelijk maken dat als we onderweg fouten tegen komen dit een fout is van mij, en vooral niet aan hem ligt.
 
-Na deze introductie kan de test beginnen, het is belangrijk om Roger een opdracht te geven of een vraag te stellen die hij uit de grafiek kan herleiden. Op het moment dat het stil valt, gewoon even laten gebeuren en niets voorzeggen.
+Na deze introductie kan de test beginnen, het is belangrijk om Roger een opdracht te geven of een vraag te stellen die hij zelf kan proberen uit te voeren in de test. Op het moment dat het stil valt, gewoon even laten gebeuren en proberen niets voor te zeggen.
 
-Ik ben een heel stuk wijzer geworden van de laatste test. Vooral dat het niet extreem belangrijk is dat je hele concept klopt en voor de volle 100% werkt. Voor mij is het belangrijk dat ik er alsnog achter sta, en niet mijn ontwerp tijdens de test naar beneden haal. Als ik zie wat ik nu alsnog uit deze test heb kunnen halen, is dat genoeg om verder te gaan met de laatste iteratie. Als ik de test had uitgevoerd via bovenstaande beschrijving was dit nog een stuk meer geweest, maar daar heb ik nu van geleerd voor de volgende keer.
+Ik ben een heel stuk wijzer geworden van de laatste test. Vooral dat het niet extreem belangrijk is dat je hele concept klopt en voor de volle 100% werkt. Voor mij is het belangrijk dat ik er alsnog achter sta, en niet mijn ontwerp tijdens de test naar beneden haal omdat ik ervan baal dat het niet af is. Als ik zie wat ik nu alsnog uit deze test heb kunnen halen, is dat genoeg om verder te gaan met de laatste iteratie. Als ik de test had uitgevoerd via bovenstaande beschrijving was dit nog een stuk meer geweest, maar daar heb ik nu van geleerd voor de volgende keer.
 
 #### Iteratie 3
 
@@ -183,11 +183,11 @@ Om een goed beeld te krijgen van het concept, heb ik het gebruik opgenomen in ee
 
 <details><summary>Conclusie</summary>
 
-Tijdens het testen heb ik een aantal punten ondervonden die het leven op het web van iemand zo als Roger erg lastig maken. Een groot voorbeeld hiervan is de screenreader. De screenreader kan geen context geven en blijft continu doorratelen. Om die reden heb ik mijn eigen audio ondersteuning aan de website toegevoegd. Nu kan ik context aan het verhaal meegeven, en de screenreader een natuurlijk effect meegeven. Als voorbeeld Roger een goedendag wensen als hij op de website aankomt. Een grapje als hij te ongeduldig doet, en context meegeven aan de aantallen die worden opgenoemd in plaats van enkel de aantallen. Uit de testen is gebleken dat dit voor Roger een enorme meerwaarde geeft aan de ervaring.
+Tijdens het testen heb ik een aantal punten ondervonden die het leven op het web van iemand zo als Roger erg lastig maken. Een groot voorbeeld hiervan is de screenreader. De screenreader kan geen context geven en blijft continu doorratelen. Om die reden heb ik mijn eigen audio ondersteuning aan de website toegevoegd. Nu kan ik context aan het verhaal meegeven, en de screenreader een natuurlijk effect geve . Als voorbeeld Roger een goedendag wensen als hij op de website aankomt. Een grapje als hij te ongeduldig doet, en context meegeven aan de aantallen die worden opgenoemd in plaats van enkel de aantallen. Uit de testen is gebleken dat dit voor Roger een enorme meerwaarde geeft aan de ervaring.
 
 Bij voorbaat dacht ik dat Roger enorme knoppen nodig had op de website en zijn zicht niet kon gebruiken. Tijdens het testen bleek dat hij het zicht wat hij heeft maar al te graag gebruikt, alleen niet voor teksten lezen enzovoort. Dat kost hem te veel moeite, maar een knop inklikken of de trend van een grafiek lezen gaat nog best goed. Door de audio ondersteuning aan de website mee te geven kan Roger zelf kiezen hoeveel energie hij er in wilt steken om met zijn zicht de grafiek te volgen, omdat de audio dit ook duidelijk maakt.
 
-Ik vond het een hele bijzondere ervaring om met Roger te mogen testen. Zelfs op de afstand die er tussen ons zat, heb ik hier enorm veel van geleerd. Zoals ik al benoemde in de testresultaten van Iteratie 3 heb ik veel geleerd over het uitvoeren van een test zelf, maar ook inzichten gekregen over de ervaring van een gebruiker met een aandoening op het web. Ik was ervan bewust dat het deze doelgroep niet makkelijk wordt gemaakt op het web. Na dit project zal ik hier meer rekening mee houden met mijn eigen werk.
+Ik vond het een hele bijzondere ervaring om met Roger te mogen testen. Zelfs op de afstand die er tussen ons zat, heb ik hier enorm veel van geleerd. Zoals ik al benoemde in de testresultaten van Iteratie 3 heb ik veel geleerd over het uitvoeren van een test zelf, maar ook inzichten gekregen over de ervaring van een gebruiker met een aandoening op het web. Ik was ervan bewust dat het deze doelgroep niet makkelijk wordt gemaakt op het internet, maar dat deze problemen hun de ervaring zo enorm beinvloeden was mij nog niet doorgedrongen. Na dit project zal dit in mijn achterhoofd meespelen tijdens het ontwerpen van het volgende project.
 
 </details>
 
@@ -211,11 +211,11 @@ De screenreader die Roger gebruikt vind ik een mooi voorbeeld van dit principe. 
 
 ### Prioritise identity
 
-Het bestuderen van de situatie in het principe "study situation" is een goede eerste stap. Dit principe neemt mensen met een handicap als actieve rol mee in het ontwerpproces. Hierin probeer je de inzichten en ideen van uitgesloten mensen te combineren met de kennis en vaardigheden van jou als webdesigner.
+Het bestuderen van de situatie in het principe "study situation" is een goede eerste stap. In dit princpe "prioritise identity" nemen we mensen met een handicap als actieve rol in het ontwerpproces. Hierin probeer je de inzichten en ideeën van uitgesloten mensen te combineren met de kennis en vaardigheden van jou als webdesigner.
 
 De hele applicatie is speciaal voor Roger gemaakt. In de eerste test hebben wij een profiel opgebouwd waaruit duidelijk wordt wat hij interessant vind, wat zijn karaktereigenschappen zijn, waar hij tegenaan loopt en wat zijn leven zou kunnen verbeteren. Hier heb ik op geprobeerd in te spelen met mijn website.
 
-Na het kennismakings gesprek met Roger ben ik mijn eerste iteratie gaan uitwerken met de kennis die ik tot dat moment had. Deze iteratie heb ik getest op hem. Hier zijn ontzettend interessante bevindingen uit gekomen die ik in de volgende iteratie had verwerkt. Ik heb uiteindelijk 3 verschillende testen uitgewerkt om tot het eindproduct te komen.
+Na het kennismakings gesprek met Roger ben ik mijn eerste iteratie gaan uitwerken met de kennis die ik tot dat moment had. Deze iteratie heb ik getest op hem. Hier zijn ontzettend interessante bevindingen uit gekomen die ik in de volgende iteratie had verwerkt. Ik heb uiteindelijk 3 verschillende testen uitgevoerd om tot het eindproduct te komen.
 
 ### Add nonsense
 
