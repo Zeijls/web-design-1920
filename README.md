@@ -72,6 +72,7 @@ In principe kan Brian nu nog teksten lezen, maar als het meer als 1 zin is raakt
 ## Testen
 
 <details><summary>Test 1</summary>
+<br>
 
 `Voorbereiding`
 
@@ -87,6 +88,7 @@ Tijdens de eerste test hebben wij een profiel van Roger opgebouwd, deze is terug
 </details>
 
 <details><summary>Test 2</summary>
+<br>
 
 `Voorbereiding`
 
@@ -131,6 +133,7 @@ Naast mijn eigen test kwamen er bij de andere tests ook nog een aantal interessa
 </details>
 
 <details><summary>Test 3</summary>
+<br>
 
 `Voorbereiding`
 
