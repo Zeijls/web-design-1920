@@ -6,9 +6,6 @@ onload = function () {
       let stopButton = document.querySelector("#stop");
       let flag = false;
 
-      // const myLang = speechSynthesisUtteranceInstance.lang;
-      // speechSynthesisUtteranceInstance.lang = "nl-NL";
-
       playButton.addEventListener("click", onClickPlay);
       pauseButton.addEventListener("click", onClickPause);
       stopButton.addEventListener("click", onClickStop);
@@ -28,11 +25,9 @@ onload = function () {
           playButton.className = "played";
           stopButton.className = "";
           console.log(utterance);
-          // utterance.lang = "nl-NL";
           speak(utterance);
         }
         if (paused) {
-          /* unpause/resume narration */
           playButton.className = "played";
           pauseButton.className = "";
           resume();
@@ -41,7 +36,6 @@ onload = function () {
 
       function onClickPause() {
         if (speaking && !paused) {
-          /* pause narration */
           pauseButton.className = "paused";
           playButton.className = "";
           pause();
@@ -50,8 +44,6 @@ onload = function () {
 
       function onClickStop() {
         if (speaking) {
-          /* stop narration */
-          /* for safari */
           stopButton.className = "stopped";
           playButton.className = pauseButton.className = "";
           flag = false;

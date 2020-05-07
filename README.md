@@ -26,10 +26,6 @@ Deze applicatie is het eindproduct voor het vak [@cmda-minor-web 18-19](https://
 - [Testen](#Testen)
 - [Conclusie testen](#Conclusie-testen)
 - [Exclusive Design Principles](#Exclusive-Design-Principles)
-  - [Study situation](#Study-situation)
-  - [Ignore Conventions](#Ignore-conventions)
-  - [Prioritise identity](#Prioritise-identity)
-  - [Add nonsense](#Add-nonsense)
 - [Wishlist](#Wishlist)
 - [Bronnen](#Bronnen)
 - [Credits](#Credits)
@@ -236,6 +232,9 @@ In eerste instantie leek mijn idee een beetje zinloos, maar toen ik het had toeg
 
 - [Essent thuis app](https://www.energieverbruiksmanagers.nl/overzicht-energieverbruiksmanagers/essent-thuis-app-nsure-energielezer/)
 - [Essent](https://www.essent.nl/kennisbank/zonnepanelen/hoe-werken-zonnepanelen/opbrengst-zonnepanelen-per-maand)
+- [ChartJS](https://www.chartjs.org/docs/latest/)
+- [Speech Synthesis MDN](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis)
+- [Codepen SpeechSynthesis](https://codepen.io/rpsthecoder/pen/PGXvby)
 
 ## Credits
 

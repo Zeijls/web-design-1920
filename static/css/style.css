@@ -68,11 +68,6 @@ h4 {
 /* Line chart */
 .chart-container {
   margin-top: 10%;
-  /* width: 80%;
-  height: 80%; */
-  /* height: 700px; */
-  /* margin: 1% auto;
-  display: block; */
 }
 
 #lineChart {
@@ -156,13 +151,6 @@ main>article {
   margin: auto;
 }
 
-/* Content */
-/* .content {
-  background-color: white;
-  padding: 10px;
-} */
-
-/* The "show" class is added to the filtered elements */
 .show {
   display: block;
 }
@@ -184,15 +172,7 @@ main>article {
   transition: all 0.5s;
 }
 
-/* Add a grey background color on mouse-over */
-/* .btn:hover {
-  background-color: #ddd;
-} */
-
-/* Add a dark background color to the active button */
 .btn.active {
-  /* background-color: #000000; */
-  /* border: 3px solid #000; */
   color: white;
   font-weight: normal;
 }
@@ -216,19 +196,6 @@ main>article {
   transition: width 0.5s;
 
 }
-
-/* #button-underline:before {
-  display: block;
-  position: absolute;
-  right: 0;
-  top: -5px;
-  width: 0;
-  height: 3px;
-  background-color: black;
-  content: "";
-  -webkit-transition: width 0.5s;
-  transition: width 0.5s;
-} */
 
 #button-underline:hover:after,
 #button-underline:hover:before {
@@ -255,42 +222,6 @@ main>article {
   font-size: 4vw;
   margin: 0 5%
 }
-
-/* 
-.grafieken {
-  position: absolute;
-  top: 20;
-  left: 20;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 20vw;
-} */
-
-/* .grafieken>h4 {
-  color: white;
-  font-size: 1rem;
-  text-align: center;
-  margin: auto;
-} */
-
-/* .grafieken>img {
-  width: 50%;
-  margin: 5% auto;
-}
-
-.grafieken>p {
-  color: white;
-  font-size: 4vw;
-  text-align: center;
-  margin: auto;
-  font-weight: 900;
-}
-
-.grafieken>a {
-  color: white;
-  font-size: 1rem;
-} */
 
 /* Speech synthesis */
 
@@ -336,57 +267,6 @@ blockquote {
   height: 30px;
   margin: 2%;
 }
-
-/* .button:nth-of-type(1) {
-  position: absolute;
-  top: 5vh;
-  right: 30vw;
-}
-
-.button:nth-of-type(2) {
-  position: absolute;
-  top: 5vh;
-  right: 20vw;
-}
-
-.button:nth-of-type(3) {
-  position: absolute;
-  top: 5vh;
-  right: 10vw;
-} */
-
-/* @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  .buttons {
-    height: 50vh;
-  }
-
-
-} */
-
-
-/* #play {
-  background-image: url(https://rpsthecoder.github.io/js-speech-synthesis/play.svg);
-}
-
-#play.played {
-  background-image: url(https://rpsthecoder.github.io/js-speech-synthesis/play1.svg);
-}
-
-#pause {
-  background-image: url(https://rpsthecoder.github.io/js-speech-synthesis/pause.svg);
-}
-
-#pause.paused {
-  background-image: url(https://rpsthecoder.github.io/js-speech-synthesis/pause1.svg);
-}
-
-#stop {
-  background-image: url(https://rpsthecoder.github.io/js-speech-synthesis/stop.svg);
-}
-
-#stop.stopped {
-  background-image: url(https://rpsthecoder.github.io/js-speech-synthesis/stop1.svg);
-} */
 
 #play {
   background-image: url(../img/play.svg);
@@ -472,6 +352,11 @@ body {
     text-decoration: none;
   }
 
+  h4 {
+    font-size: 2vw;
+    margin-top: 5%;
+  }
+
   .buttons>button {
     top: 30;
     width: 50px;
@@ -487,6 +372,45 @@ body {
     top: 20
   }
 
+  .overzichtHome {
+    justify-content: space-around;
+    width: 50%;
+  }
+
+  .overzichtHome .zon {
+    width: 50%;
+  }
+
+  .overzichtHome .zon>h4 {
+    font-size: 2vw;
+  }
+
+  .overzichtHome .zon>img {
+    width: 5vw;
+  }
+
+  .overzichtHome .zon>p {
+    font-size: 1.5vw;
+  }
+
+  .overzichtHome .stroom {
+    width: 50%;
+  }
+
+  .overzichtHome .stroom>h4 {
+    font-size: 2vw;
+  }
+
+  .overzichtHome .stroom>img {
+    width: 5vw;
+  }
+
+  .overzichtHome .stroom>p {
+    color: white;
+    font-size: 1.5vw;
+  }
+
+  /* Grafiek pagina's */
 
   .zon {
     width: 30%;
@@ -501,7 +425,7 @@ body {
   }
 
   .zon>p {
-    font-size: .8vw;
+    font-size: 0.8vw;
   }
 
   .stroom {
@@ -518,11 +442,7 @@ body {
 
   .stroom>p {
     color: white;
-    font-size: .8vw;
-  }
-
-  #myBtnContainer {
-    margin-top: 2%;
+    font-size: 0.8vw;
   }
 
   .btn {
@@ -543,12 +463,12 @@ body {
   .chart-container {
     margin-top: 0;
     display: block;
-    width: 70%;
+    max-width: 70%;
+    margin: auto;
   }
 
-  .lineChart {
-    width: 60%;
-    display: block;
+  .details {
+    margin-top: 5%;
   }
 
 }
