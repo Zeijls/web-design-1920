@@ -98,7 +98,7 @@ Belangrijkste punten die ik uit de test wil halen;
 - Is de audio op deze manier een meerwaarde voor de grafiek
 - Zijn de verschillen in lijnen zo duidelijk?
 
-### Iteratie 1
+#### Iteratie 1
 
 [Test](https://www.youtube.com/watch?v=gb44xXou2Ds&feature=youtu.be)
 
@@ -139,7 +139,7 @@ Naast mijn eigen test kwamen er bij de andere tests ook nog een aantal interessa
 
 Om heel eerlijk te zijn had ik deze test niet voorbereid. Ik had van te voren niet bedacht wat ik wilde vragen en wat ik hoopte dat mij duidelijk werd. Simpelweg omdat ik er totaal niet achterstond wat ik ging testen, dat kwam omdat het nog niet af was.
 
-### Iteratie 2
+#### Iteratie 2
 
 <img width="1440" alt="Screenshot 2020-04-24 at 10 48 46" src="https://user-images.githubusercontent.com/45422060/80198718-c75c1e80-8620-11ea-8862-b1bcb75160e4.png">
 
@@ -157,7 +157,7 @@ Na deze introductie kan de test beginnen, het is belangrijk om Roger een opdrach
 
 Ik ben een heel stuk wijzer geworden van de laatste test. Vooral dat het niet extreem belangrijk is dat je hele concept klopt en voor de volle 100% werkt. Voor mij is het belangrijk dat ik er alsnog achter sta, en niet mijn ontwerp tijdens de test naar beneden haal. Als ik zie wat ik nu alsnog uit deze test heb kunnen halen, is dat genoeg om verder te gaan met de laatste iteratie. Als ik de test had uitgevoerd via bovenstaande beschrijving was dit nog een stuk meer geweest, maar daar heb ik nu van geleerd voor de volgende keer.
 
-### Iteratie 3
+#### Iteratie 3
 
 `Bevindingen tijdens itereren`
 
@@ -176,7 +176,6 @@ Tijdens het aanpassen van het User Scenario kwam ik erachter dat Roger de voortg
 Om een goed beeld te krijgen van het concept, heb ik het gebruik opgenomen in een filmpje. Hierin worden alle features en functionaliteiten benaderd.
 
 [Eindconcept](https://www.youtube.com/watch?v=2KqR2wtUDv8)
-[Demo]("https://web-design-simone.herokuapp.com/")
 
 </details>
 
@@ -194,25 +193,42 @@ Ik vond het een hele bijzondere ervaring om met Roger te mogen testen. Zelfs op 
 
 ## Exclusive Design Principles
 
-Voor dit vak kregen we 4 design principles die we op het concept moesten toepassen. De design principles gaan over [Exclusive Design](https://vasilis.nl/research/about-exclusive-design/) geschreven door Vasilis van Gemert. Om de principes goed te begrijpen heb ik hier zelf aantekeningen van gemaakt in mijn [Wiki](https://github.com/Zeijls/web-design-1920/wiki/Exclusive-Design-~-Vasilis-van-Gemert). Hieronder leg ik per principe uit hoe ik dit heb toegepast op mijn concept voor Roger Ravelli.
+Voor dit vak kregen we 4 design principles die we op het concept moesten toepassen. De design principles gaan over [Exclusive Design](https://vasilis.nl/research/about-exclusive-design/) geschreven door Vasilis van Gemert. Om de principes goed te begrijpen heb ik hier zelf aantekeningen van gemaakt in mijn [Wiki](https://github.com/Zeijls/web-design-1920/wiki/Exclusive-Design-~-Vasilis-van-Gemert). Hieronder zal ik in het kort vertellen wat het principe betekent en hoe ik het heb toegepast op mijn werk.
 
-<details><summary>De vier principes</summary>
+<details><summary>Principles</summary>
 
 ### Study situation
 
-Om de situatie van Roger goed te begrijpen, en te weten voor welke context ik mijn concept ga ontwerpen heb ik een User Scenario geschreven, en een Profiel van Roger opgebouwd.
+Study situation gaat om het begrijpen van de situatie en context van gebruikers met een handicap.
+
+In dit geval Roger Ravelli, om zijn situatie goed te begrijpen en te weten voor welke context ik mijn concept ga ontwerpen heb ik een User Scenario geschreven, en een Profiel van Roger opgebouwd. Hierdoor heb ik verschillende karaktereigenschappen, hobby's en interesses van Roger leren kennen waarop ik kan inspelen in mijn ontwerp. Hierdoor zal het persoonlijker kunnen aanvoelen en de fijnste ervaring voor Roger bieden.
 
 ### Ignore conventions
 
-De screenreader die Roger gebruikt ratelt alles wat er op de website staat aan een stuk op. Verder wordt er alleen verteld wat er staat en geen context gegeven. Dit stoorde mij ontzettend, voor Roger is het al vreselijk om naar een Robot stem te luisteren, en dan wordt het nog erger als hij geen normale pauzes neemt in het verhaal. Ik wilde bij de audio meer context geven en er een natuurlijk draai aan wenden. Hiervoor heb ik mijn eigen "screenreader" gemaakt waarin deze opties wel mogelijk zijn.
+De huidige webconventies zijn ontworpen door en dus ook voor ontwerpers. Deze ontwerpen zijn dus niet perse geschikt voor niet-ontwerpers. Als we deze doelgroep, en vooral mensen met een handicap wel willen betrekken, is het mogelijk nodig om een nieuwe kijk te geven op deze ontwerpconventies. Dit kan pas nadat het principe study situation is toegepast.
+
+De screenreader die Roger gebruikt vind ik een mooi voorbeeld van dit principe. Hij ratelt de hele inhoud van de website aan een stuk op. Verder wordt er alleen heel abstract verteld wat er staat en geen context gegeven. Dit stoorde mij ontzettend, voor Roger is het al vreselijk om naar een Robot stem te luisteren, en dan wordt het nog erger als hij geen "normale" pauzes neemt in het verhaal. Ik wilde bij de audio meer context geven en er een natuurlijke draai aan wenden. Hiervoor heb ik mijn eigen "screenreader" ontworpen waarin deze opties wel mogelijk zijn.
 
 ### Prioritise identity
 
+Het bestuderen van de situatie in het principe "study situation" is een goede eerste stap. Dit principe neemt mensen met een handicap als actieve rol mee in het ontwerpproces. Hierin probeer je de inzichten en ideen van uitgesloten mensen te combineren met de kennis en vaardigheden van jou als webdesigner.
+
 De hele applicatie is speciaal voor Roger gemaakt. In de eerste test hebben wij een profiel opgebouwd waaruit duidelijk wordt wat hij interessant vind, wat zijn karaktereigenschappen zijn, waar hij tegenaan loopt en wat zijn leven zou kunnen verbeteren. Hier heb ik op geprobeerd in te spelen met mijn website.
+
+Na het kennismakings gesprek met Roger ben ik mijn eerste iteratie gaan uitwerken met de kennis die ik tot dat moment had. Deze iteratie heb ik getest op hem. Hier zijn ontzettend interessante bevindingen uit gekomen die ik in de volgende iteratie had verwerkt. Ik heb uiteindelijk 3 verschillende testen uitgewerkt om tot het eindproduct te komen.
 
 ### Add nonsense
 
-Bij Ignore conventions gaf ik al aan dat het mij stoorde dat de screenreader aan een stuk door ratelt, en een robot stem heeft. Nu leek het mij leuk om de screenreader een natuurlijk effect te geven. Voor Roger is het mogelijk in te zoomen op soorten energie. Als hij dit te snel wilt doen geeft de screenreader dit aan, en zegt hij dat die even wat rustiger aan moet doen omdat hij het niet kan bijhouden.
+In dit principe gaan we uitzoeken hoe we de toegankelijkheid in webdesign niet alleen functioneel kunnen maken maar ook leuk. Eigenlijk gaat het om orginele ideeën bedenken, die in eerste instantie voelen als het toevoegen van onzin.
+
+Bij Ignore conventions gaf ik al aan dat het mij stoorde dat de screenreader aan een stuk door ratelt, en een robot stem heeft. Ik vind het vreselijk voor Roger dat hij hier dagen lang naar moet luisteren. Nu leek het mij leuk om de screenreader een natuurlijk effect te geven. Dit heb ik gerealiseert door:
+
+- Roger persoonlijk te verwelkomen op de website
+- Aan te geven wat voor weer het vandaag is en wat voor effect dit heeft op de zonnepanelen van Roger
+- Roger persoonlijke tips te geven over hoe hij zijn scherm het beste kunt houden om het goed te zien
+- Een grapje te maken dat Roger te ongeduldig is als hij snel wilt wisselen van grafiek door de volgende tekst: "Ho ho Roger, niet te snel ik moet soms ook heel even nadenken op deze warme dagen hoor.
+
+In eerste instantie leek mijn idee een beetje zinloos, maar toen ik het had toegevoegd en dit in de eindpresentatie aan Roger liet zien kreeg hij een enorme lach op zijn gezicht, conclusie Missie geslaagd.
 
 </details>
 
