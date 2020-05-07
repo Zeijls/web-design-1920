@@ -73,26 +73,31 @@ In principe kan Brian nu nog teksten lezen, maar als het meer als 1 zin is raakt
 
 <details><summary>Testresultaten</summary>
 
-### Voorbereiding
+## Test 1
+
+`Voorbereiding`
 
 Vooraf gaand aan het gesprek met Roger zijn wij als groep te werk gegaan met het voorbereiden van de test. 1 iemand nam de leiding met het stellen van de vragen, waardoor niet iedereen door elkaar ging praten. De andere konden inhaken op het moment dat dit nodig was. Ik heb met 3 andere studenten genotuleerd.
 
-## Eerste test
-
 Dit gesprek was vooral om kennis te maken. In dit gesprek wilde ik er achter komen welke karaktereigenschappen Roger heeft, wat zijn hobbies zijn en wat hij het meest belangrijk vind. Ik vond het een hele bijzondere ervaring om met iemand zoals Roger te praten. Dit was de eerste keer dat ik zoiets mocht meemaken.
 
+`Bevindingen`
 Tijdens de eerste test hebben wij een profiel van Roger opgebouwd, deze is terug te vinden in mijn wiki;
 [Profiel Roger Ravelli](https://github.com/Zeijls/web-design-1920/wiki/Profiel-Roger-Ravelli)
 
-## Tweede test
+## Test 2
 
-### Concept versie 1
+`Voorbereiding`
 
 Belangrijkste punten die ik uit de test wil halen;
 
 - Is het kleurcontrast groot genoeg
 - Is de audio op deze manier een meerwaarde voor de grafiek
 - Zijn de verschillen in lijnen zo duidelijk?
+
+### Iteratie 1
+
+[Test](https://www.youtube.com/watch?v=gb44xXou2Ds&feature=youtu.be)
 
 Vragen achteraf
 
@@ -101,10 +106,6 @@ Vragen achteraf
 - Welke data lijkt u interessant om op deze manier te lezen
 - Zijn de contrasten zo groot genoeg?
 - In hoeverre is het voor u mogelijk om bepaalde letters op het toetsenbord te vinden.
-
-### Iteratie 1
-
-[Test](https://www.youtube.com/watch?v=gb44xXou2Ds&feature=youtu.be)
 
 De test ging verassend goed. Hij was heel positief over de demo. Ik had een filmpje gemaakt van de werking omdat ik wist dat ik het niet ging redden om het prototype in deze korte tijd af te krijgen. Tot mijn verbazing werkte dit best goed voor een eerste iteratie en heb ik hier iteressante punten uit kunnen halen. Hieronder de feedback van Roger;
 
@@ -125,13 +126,18 @@ Naast mijn eigen test kwamen er bij de andere tests ook nog een aantal interessa
 - Zou fijn zijn als Roger de screenreader ook op pauze kunt zetten door een soort "Stop" commando
 - Tabben ervaart hij als fijner dan screenreader, omdat hij dan zijn eigen tempo aan kunt geven.
 
+## Test 3
+
+`Voorbereiding`
+Om heel eerlijk te zijn had ik deze test niet voorbereid. Ik had van te voren niet bedacht wat ik wilde vragen en wat ik hoopte dat mij duidelijk werd. Simpelweg omdat ik er totaal niet achterstond wat ik ging testen, dat kwam omdat het nog niet af was.
+
 ### Iteratie 2
 
 <img width="1440" alt="Screenshot 2020-04-24 at 10 48 46" src="https://user-images.githubusercontent.com/45422060/80198718-c75c1e80-8620-11ea-8862-b1bcb75160e4.png">
 
-## Derde test
-
 Dit gesprek ging een stuk minder soepel, maar ik heb hier wel enorm veel van geleerd. Het was mijn niet gelukt om alle feedback van week 2 te verwerken in het concept. Ik baalde hier zo ontzettend van dat de test voor mij een beetje nutteloos voelde, en ik had hier niet zoveel voor voorbereid. Maar tot mijn verbazing heb ik enorm veel uit deze test kunnen halen. Belangrijke punten die uit de test naar voren zijn gekomen:
+
+`Bevindingen`
 
 - De website ziet er op Roger zijn desktop heel anders uit doordat hij de zoom techniek gebruikt, en dit is niet zichbaar via de screenshare hoe de test werd afgenomen
 - De kleurcontrasten zijn goed, hier hoeft niet meer voor getest te worden
@@ -161,7 +167,8 @@ Tijdens het aanpassen van het User Scenario kwam ik erachter dat Roger de voortg
 
 Om een goed beeld te krijgen van het concept, heb ik het gebruik opgenomen in een filmpje. Hierin worden alle features en functionaliteiten benaderd.
 
-[Iteratie 3](https://www.youtube.com/watch?v=2KqR2wtUDv8)
+[Eindconcept](https://www.youtube.com/watch?v=2KqR2wtUDv8)
+[Demo]("https://web-design-simone.herokuapp.com/")
 
 </details>
 
