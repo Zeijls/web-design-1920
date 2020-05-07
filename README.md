@@ -133,6 +133,8 @@ Om heel eerlijk te zijn had ik deze test niet voorbereid. Ik had van te voren ni
 
 <img width="1440" alt="Screenshot 2020-04-24 at 10 48 46" src="https://user-images.githubusercontent.com/45422060/80198718-c75c1e80-8620-11ea-8862-b1bcb75160e4.png">
 
+Om deze iteratie live te zien kunt u de volgende map uit mijn readme downloaden [Iteratie2](https://github.com/Zeijls/web-design-1920/tree/master/Iteratie2)
+
 Dit gesprek ging een stuk minder soepel, maar ik heb hier wel enorm veel van geleerd. Het was mijn niet gelukt om alle feedback van week 2 te verwerken in het concept. Ik baalde hier zo ontzettend van dat de test voor mij een beetje nutteloos voelde maar tot mijn verbazing heb ik enorm veel uit deze test kunnen halen. Belangrijke punten die uit de test naar voren zijn gekomen:
 
 `Bevindingen`
