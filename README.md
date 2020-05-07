@@ -71,9 +71,7 @@ In principe kan Brian nu nog teksten lezen, maar als het meer als 1 zin is raakt
 
 ## Testen
 
-<details><summary>Testresultaten</summary>
-
-## Test 1
+<details><summary>Test 1</summary>
 
 `Voorbereiding`
 
@@ -82,10 +80,13 @@ Vooraf gaand aan het gesprek met Roger zijn wij als groep te werk gegaan met het
 Dit gesprek was vooral om kennis te maken. In dit gesprek wilde ik er achter komen welke karaktereigenschappen Roger heeft, wat zijn hobbies zijn en wat hij het meest belangrijk vind. Ik vond het een hele bijzondere ervaring om met iemand zoals Roger te praten. Dit was de eerste keer dat ik zoiets mocht meemaken.
 
 `Bevindingen`
+
 Tijdens de eerste test hebben wij een profiel van Roger opgebouwd, deze is terug te vinden in mijn wiki;
 [Profiel Roger Ravelli](https://github.com/Zeijls/web-design-1920/wiki/Profiel-Roger-Ravelli)
 
-## Test 2
+</details>
+
+<details><summary>Test 2</summary>
 
 `Voorbereiding`
 
@@ -115,6 +116,7 @@ De test ging verassend goed. Hij was heel positief over de demo. Ik had een film
 - Onderwerpen die ik interessant vind is duurzame energie, en dat de groei per jaar. Of Toegankelijkheidsscores van diensten en websites. (ten opzichten van de fossielen energie)
 
 `Bevindingen`
+
 Naast mijn eigen test kwamen er bij de andere tests ook nog een aantal interessante bevindingen naar voren
 
 - Vind het fijn om de hele grafiek in beeld te hebben.
@@ -126,9 +128,12 @@ Naast mijn eigen test kwamen er bij de andere tests ook nog een aantal interessa
 - Zou fijn zijn als Roger de screenreader ook op pauze kunt zetten door een soort "Stop" commando
 - Tabben ervaart hij als fijner dan screenreader, omdat hij dan zijn eigen tempo aan kunt geven.
 
-## Test 3
+</details>
+
+<details><summary>Test 3</summary>
 
 `Voorbereiding`
+
 Om heel eerlijk te zijn had ik deze test niet voorbereid. Ik had van te voren niet bedacht wat ik wilde vragen en wat ik hoopte dat mij duidelijk werd. Simpelweg omdat ik er totaal niet achterstond wat ik ging testen, dat kwam omdat het nog niet af was.
 
 ### Iteratie 2
@@ -151,7 +156,7 @@ Ik ben een heel stuk wijzer geworden van de laatste test. Vooral dat het niet ex
 
 ### Iteratie 3
 
-`Bevindingen`
+`Bevindingen tijdens itereren`
 
 - Onkey events zijn niet nodig, de buttons waren prima te bereiken voor Roger. Hij had hier geen moeite mee.
 - Inzoomen op 1 soort energie is geen hoofdfunctie van dit concept. Is handig, maar met de kleur contrasten en audioondersteuning kan Roger de grafiek goed aflezen.
